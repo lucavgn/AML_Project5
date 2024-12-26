@@ -158,9 +158,11 @@ Epoch 148/150, Loss: 1.0835, Train Acc: 68.62%, Val Acc: 48.03%, Test Acc: 48.89
 Epoch 149/150, Loss: 1.0815, Train Acc: 68.44%, Val Acc: 47.55%, Test Acc: 48.68%                        
 Epoch 150/150, Loss: 1.0867, Train Acc: 68.09%, Val Acc: 48.13%, Test Acc: 48.83%                        
 ## Plots
-
-
-
+![Test Loss](https://github.com/user-attachments/assets/74fc1552-6627-4e86-a9a2-81c711d4b56f)
+![Training Accuracy](https://github.com/user-attachments/assets/960a1474-07d2-4a9c-819e-c9051b183d77)
+![Training Loss](https://github.com/user-attachments/assets/a62ec448-1645-468b-b228-37339c64b9c3)
+![Validation Accuracy](https://github.com/user-attachments/assets/d1d914b4-0fb1-443a-b9fd-3a465d6430af)
+![Validation Loss](https://github.com/user-attachments/assets/79e4cfd8-54dc-47d9-b18f-7919cb0395eb)
 
 
 
