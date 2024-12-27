@@ -155,9 +155,9 @@
 
 #### Plots
 
-![Plot Loss](./Plot/Train_Validation_Loss_AdamW_epochs%20=%20150%20_batch_size%20=%20128%20_momentum%20=%200.9%20_weight_decay%20=%201e-2%20_lr=%201e-4.PNG)
+![Plot Loss](./Plot/Train_Validation_Loss_epochs%20=%20150%20_batch_size%20=%20128%20_momentum%20=%200.9%20_weight_decay%20=%201e-2%20_lr=%201e-4.PNG)
 
-![Plot Accuracy](./Plot/Train_Validation_Accuracy_AdamW_epochs%20=%20150%20_batch_size%20=%20128%20_momentum%20=%200.9%20_weight_decay%20=%201e-2%20_lr=%201e-4.PNG)
+![Plot Accuracy](./Plot/Train_Validation_Accuracy_epochs%20=%20150%20_batch_size%20=%20128%20_momentum%20=%200.9%20_weight_decay%20=%201e-2%20_lr=%201e-4.PNG)
 
 # Train with AdamW
 
@@ -335,12 +335,12 @@ Epoch 150/150, Loss: 2.1099, Train Acc: 44.81%, Val Acc: 38.14%, Test Acc: 39.00
 
 #### Plots
 
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/train_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/validation_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/test_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/train_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/validation_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/test_accuracy_AdamW.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-2/test_accuracy.png)
 
 # Train with AdamW
 
@@ -518,12 +518,12 @@ Epoch 150/150, Loss: 1.4159, Train Acc: 59.93%, Val Acc: 44.39%, Test Acc: 44.82
 
 #### Plots
 
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/train_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/validation_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/test_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/train_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/validation_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/test_accuracy_AdamW.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-4/test_accuracy.png)
 
 # Train with AdamW
 
@@ -701,12 +701,12 @@ Epoch 150/150, Loss: 2.1109, Train Acc: 44.81%, Val Acc: 38.31%, Test Acc: 38.47
 
 #### Plots
 
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/train_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/validation_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/test_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/train_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/validation_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/test_accuracy_AdamW.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-4_wd=1e-4/test_accuracy.png)
 
 # Train with AdamW
 
@@ -884,9 +884,493 @@ Epoch 150/150, Loss: 1.3672, Train Acc: 61.44%, Val Acc: 44.80%, Test Acc: 45.48
 
 #### Plots
 
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/train_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/validation_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/test_loss_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/train_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/validation_accuracy_AdamW.png)
-![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/test_accuracy_AdamW.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-2/test_accuracy.png)
+
+# Train with AdamW
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+| ------ | ---------- | -------- | ------------ | ------------- |
+| 150    | 128        | 0.9      | 1e-3         | 1e-3          |
+
+#### Results log
+
+Epoch 1/150, Loss: 4.1140, Train Acc: 6.88%, Val Acc: 10.60%, Test Acc: 10.12%  
+Epoch 2/150, Loss: 3.6661, Train Acc: 13.39%, Val Acc: 16.30%, Test Acc: 15.52%  
+Epoch 3/150, Loss: 3.3855, Train Acc: 18.02%, Val Acc: 19.51%, Test Acc: 20.20%  
+Epoch 4/150, Loss: 3.2009, Train Acc: 21.59%, Val Acc: 23.21%, Test Acc: 22.94%  
+Epoch 5/150, Loss: 3.0487, Train Acc: 24.31%, Val Acc: 24.63%, Test Acc: 24.01%  
+Epoch 6/150, Loss: 2.9215, Train Acc: 26.82%, Val Acc: 26.82%, Test Acc: 26.69%  
+Epoch 7/150, Loss: 2.8187, Train Acc: 29.09%, Val Acc: 27.09%, Test Acc: 27.46%  
+Epoch 8/150, Loss: 2.7396, Train Acc: 30.50%, Val Acc: 29.57%, Test Acc: 29.63%  
+Epoch 9/150, Loss: 2.6750, Train Acc: 31.81%, Val Acc: 30.09%, Test Acc: 30.64%  
+Checkpoint saved at epoch 10
+Epoch 10/150, Loss: 2.6172, Train Acc: 33.09%, Val Acc: 31.42%, Test Acc: 31.59%  
+Epoch 11/150, Loss: 2.5690, Train Acc: 33.79%, Val Acc: 32.25%, Test Acc: 32.46%  
+Epoch 12/150, Loss: 2.5179, Train Acc: 34.98%, Val Acc: 32.24%, Test Acc: 32.57%  
+Epoch 13/150, Loss: 2.4783, Train Acc: 35.84%, Val Acc: 33.88%, Test Acc: 33.28%  
+Epoch 14/150, Loss: 2.4433, Train Acc: 36.65%, Val Acc: 33.77%, Test Acc: 33.25%  
+Epoch 15/150, Loss: 2.4205, Train Acc: 37.02%, Val Acc: 33.72%, Test Acc: 34.23%  
+Epoch 16/150, Loss: 2.3960, Train Acc: 37.55%, Val Acc: 35.58%, Test Acc: 35.55%  
+Epoch 17/150, Loss: 2.3497, Train Acc: 38.73%, Val Acc: 35.54%, Test Acc: 35.24%  
+Epoch 18/150, Loss: 2.3304, Train Acc: 39.12%, Val Acc: 35.29%, Test Acc: 36.39%  
+Epoch 19/150, Loss: 2.3053, Train Acc: 39.40%, Val Acc: 35.57%, Test Acc: 35.77%  
+Checkpoint saved at epoch 20
+Epoch 20/150, Loss: 2.2911, Train Acc: 39.81%, Val Acc: 35.17%, Test Acc: 36.50%  
+Epoch 21/150, Loss: 2.2568, Train Acc: 40.16%, Val Acc: 35.72%, Test Acc: 36.42%  
+Epoch 22/150, Loss: 2.2466, Train Acc: 40.71%, Val Acc: 35.85%, Test Acc: 35.92%  
+Epoch 23/150, Loss: 2.2205, Train Acc: 41.15%, Val Acc: 37.60%, Test Acc: 37.21%  
+Epoch 24/150, Loss: 2.1930, Train Acc: 41.64%, Val Acc: 37.79%, Test Acc: 37.37%  
+Epoch 25/150, Loss: 2.1996, Train Acc: 41.71%, Val Acc: 37.46%, Test Acc: 37.05%  
+Epoch 26/150, Loss: 2.1674, Train Acc: 42.46%, Val Acc: 37.36%, Test Acc: 37.08%  
+Epoch 27/150, Loss: 2.1442, Train Acc: 42.66%, Val Acc: 37.69%, Test Acc: 37.54%  
+Epoch 28/150, Loss: 2.1375, Train Acc: 43.17%, Val Acc: 38.06%, Test Acc: 38.14%  
+Epoch 29/150, Loss: 2.1202, Train Acc: 43.48%, Val Acc: 37.16%, Test Acc: 37.09%  
+Checkpoint saved at epoch 30
+Epoch 30/150, Loss: 2.1106, Train Acc: 43.40%, Val Acc: 37.81%, Test Acc: 38.21%  
+Epoch 31/150, Loss: 2.0838, Train Acc: 44.01%, Val Acc: 38.65%, Test Acc: 38.22%  
+Epoch 32/150, Loss: 2.0734, Train Acc: 44.52%, Val Acc: 39.03%, Test Acc: 38.61%  
+Epoch 33/150, Loss: 2.0702, Train Acc: 44.17%, Val Acc: 38.36%, Test Acc: 38.23%  
+Epoch 34/150, Loss: 2.0461, Train Acc: 44.82%, Val Acc: 38.97%, Test Acc: 39.56%  
+Epoch 35/150, Loss: 2.0293, Train Acc: 45.37%, Val Acc: 38.45%, Test Acc: 39.24%  
+Epoch 36/150, Loss: 2.0217, Train Acc: 45.72%, Val Acc: 38.80%, Test Acc: 38.82%  
+Epoch 37/150, Loss: 2.0127, Train Acc: 45.56%, Val Acc: 38.44%, Test Acc: 38.65%  
+Epoch 38/150, Loss: 2.0135, Train Acc: 45.59%, Val Acc: 39.53%, Test Acc: 39.30%  
+Epoch 39/150, Loss: 1.9863, Train Acc: 46.27%, Val Acc: 39.70%, Test Acc: 39.18%  
+Checkpoint saved at epoch 40
+Epoch 40/150, Loss: 1.9835, Train Acc: 46.20%, Val Acc: 38.79%, Test Acc: 39.05%  
+Epoch 41/150, Loss: 1.9721, Train Acc: 46.95%, Val Acc: 39.52%, Test Acc: 40.56%  
+Epoch 42/150, Loss: 1.9697, Train Acc: 46.77%, Val Acc: 38.86%, Test Acc: 39.08%  
+Epoch 43/150, Loss: 1.9446, Train Acc: 47.34%, Val Acc: 39.90%, Test Acc: 40.48%  
+Epoch 44/150, Loss: 1.9429, Train Acc: 47.34%, Val Acc: 39.53%, Test Acc: 39.67%  
+Epoch 45/150, Loss: 1.9211, Train Acc: 47.86%, Val Acc: 39.56%, Test Acc: 39.87%  
+Epoch 46/150, Loss: 1.9198, Train Acc: 47.99%, Val Acc: 40.06%, Test Acc: 40.24%  
+Epoch 47/150, Loss: 1.9126, Train Acc: 48.02%, Val Acc: 40.30%, Test Acc: 40.62%  
+Epoch 48/150, Loss: 1.8964, Train Acc: 48.31%, Val Acc: 40.32%, Test Acc: 40.51%  
+Epoch 49/150, Loss: 1.8814, Train Acc: 48.97%, Val Acc: 40.32%, Test Acc: 40.68%  
+Checkpoint saved at epoch 50
+Epoch 50/150, Loss: 1.8837, Train Acc: 48.57%, Val Acc: 40.38%, Test Acc: 40.26%  
+Epoch 51/150, Loss: 1.8715, Train Acc: 48.77%, Val Acc: 39.86%, Test Acc: 40.44%  
+Epoch 52/150, Loss: 1.8767, Train Acc: 48.68%, Val Acc: 40.12%, Test Acc: 40.25%  
+Epoch 53/150, Loss: 1.8535, Train Acc: 49.17%, Val Acc: 40.72%, Test Acc: 40.53%  
+Epoch 54/150, Loss: 1.8466, Train Acc: 49.37%, Val Acc: 40.93%, Test Acc: 40.77%  
+Epoch 55/150, Loss: 1.8453, Train Acc: 49.39%, Val Acc: 41.46%, Test Acc: 41.70%  
+Epoch 56/150, Loss: 1.8283, Train Acc: 50.04%, Val Acc: 40.91%, Test Acc: 40.57%  
+Epoch 57/150, Loss: 1.8257, Train Acc: 49.95%, Val Acc: 40.87%, Test Acc: 41.49%  
+Epoch 58/150, Loss: 1.8089, Train Acc: 50.28%, Val Acc: 41.41%, Test Acc: 41.63%  
+Epoch 59/150, Loss: 1.8177, Train Acc: 50.19%, Val Acc: 41.40%, Test Acc: 41.21%  
+Checkpoint saved at epoch 60
+Epoch 60/150, Loss: 1.7919, Train Acc: 50.78%, Val Acc: 40.91%, Test Acc: 41.68%  
+Epoch 61/150, Loss: 1.7942, Train Acc: 50.72%, Val Acc: 40.89%, Test Acc: 40.72%  
+Epoch 62/150, Loss: 1.7806, Train Acc: 51.16%, Val Acc: 41.74%, Test Acc: 41.57%  
+Epoch 63/150, Loss: 1.7776, Train Acc: 51.11%, Val Acc: 40.68%, Test Acc: 41.48%  
+Epoch 64/150, Loss: 1.7694, Train Acc: 51.13%, Val Acc: 41.71%, Test Acc: 40.79%  
+Epoch 65/150, Loss: 1.7546, Train Acc: 51.49%, Val Acc: 41.23%, Test Acc: 41.88%  
+Epoch 66/150, Loss: 1.7383, Train Acc: 52.03%, Val Acc: 41.56%, Test Acc: 42.27%  
+Epoch 67/150, Loss: 1.7392, Train Acc: 51.72%, Val Acc: 41.76%, Test Acc: 41.39%  
+Epoch 68/150, Loss: 1.7440, Train Acc: 51.57%, Val Acc: 41.31%, Test Acc: 42.14%  
+Epoch 69/150, Loss: 1.7229, Train Acc: 52.23%, Val Acc: 40.96%, Test Acc: 42.10%  
+Checkpoint saved at epoch 70
+Epoch 70/150, Loss: 1.7239, Train Acc: 52.11%, Val Acc: 41.90%, Test Acc: 41.91%  
+Epoch 71/150, Loss: 1.7156, Train Acc: 52.27%, Val Acc: 42.72%, Test Acc: 42.61%  
+Epoch 72/150, Loss: 1.7000, Train Acc: 53.01%, Val Acc: 41.87%, Test Acc: 43.00%  
+Epoch 73/150, Loss: 1.6936, Train Acc: 52.91%, Val Acc: 41.79%, Test Acc: 42.69%  
+Epoch 74/150, Loss: 1.6871, Train Acc: 53.16%, Val Acc: 42.19%, Test Acc: 42.44%  
+Epoch 75/150, Loss: 1.6846, Train Acc: 52.82%, Val Acc: 42.04%, Test Acc: 42.21%  
+Epoch 76/150, Loss: 1.6769, Train Acc: 53.31%, Val Acc: 42.90%, Test Acc: 43.31%  
+Epoch 77/150, Loss: 1.6554, Train Acc: 53.91%, Val Acc: 42.43%, Test Acc: 42.31%  
+Epoch 78/150, Loss: 1.6543, Train Acc: 53.90%, Val Acc: 42.92%, Test Acc: 42.61%  
+Epoch 79/150, Loss: 1.6438, Train Acc: 54.23%, Val Acc: 42.66%, Test Acc: 43.65%  
+Checkpoint saved at epoch 80
+Epoch 80/150, Loss: 1.6470, Train Acc: 54.34%, Val Acc: 41.85%, Test Acc: 43.30%  
+Epoch 81/150, Loss: 1.6316, Train Acc: 54.59%, Val Acc: 42.21%, Test Acc: 43.27%  
+Epoch 82/150, Loss: 1.6342, Train Acc: 54.53%, Val Acc: 42.49%, Test Acc: 43.63%  
+Epoch 83/150, Loss: 1.6172, Train Acc: 54.93%, Val Acc: 42.84%, Test Acc: 42.89%  
+interrupted here
+
+# Train with AdamW
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+| ------ | ---------- | -------- | ------------ | ------------- |
+| 150    | 128        | 0.9      | 1e-5         | 1e-3          |
+
+#### Results log
+
+Epoch 1/150, Loss: 4.1199, Train Acc: 6.69%, Val Acc: 10.79%, Test Acc: 10.48%  
+Epoch 2/150, Loss: 3.6673, Train Acc: 13.26%, Val Acc: 15.38%, Test Acc: 15.28%  
+Epoch 3/150, Loss: 3.3745, Train Acc: 18.26%, Val Acc: 19.23%, Test Acc: 19.48%  
+Epoch 4/150, Loss: 3.1980, Train Acc: 21.38%, Val Acc: 23.31%, Test Acc: 23.29%  
+Epoch 5/150, Loss: 3.0536, Train Acc: 24.18%, Val Acc: 24.07%, Test Acc: 24.33%  
+Epoch 6/150, Loss: 2.9324, Train Acc: 26.55%, Val Acc: 26.85%, Test Acc: 27.10%  
+Epoch 7/150, Loss: 2.8273, Train Acc: 28.84%, Val Acc: 26.40%, Test Acc: 26.95%  
+Epoch 8/150, Loss: 2.7522, Train Acc: 30.17%, Val Acc: 28.83%, Test Acc: 28.70%  
+Epoch 9/150, Loss: 2.6845, Train Acc: 31.35%, Val Acc: 30.30%, Test Acc: 30.47%  
+Checkpoint saved at epoch 10
+Epoch 10/150, Loss: 2.6208, Train Acc: 32.84%, Val Acc: 30.84%, Test Acc: 30.53%  
+Epoch 11/150, Loss: 2.5727, Train Acc: 33.66%, Val Acc: 32.20%, Test Acc: 32.15%  
+Epoch 12/150, Loss: 2.5177, Train Acc: 34.90%, Val Acc: 31.70%, Test Acc: 32.30%  
+Epoch 13/150, Loss: 2.4828, Train Acc: 35.79%, Val Acc: 34.22%, Test Acc: 33.41%  
+Epoch 14/150, Loss: 2.4522, Train Acc: 36.33%, Val Acc: 33.41%, Test Acc: 33.59%  
+Epoch 15/150, Loss: 2.4341, Train Acc: 36.86%, Val Acc: 33.81%, Test Acc: 33.73%  
+Epoch 16/150, Loss: 2.3890, Train Acc: 37.62%, Val Acc: 34.54%, Test Acc: 35.22%  
+Epoch 17/150, Loss: 2.3587, Train Acc: 38.28%, Val Acc: 34.77%, Test Acc: 34.54%  
+Epoch 18/150, Loss: 2.3222, Train Acc: 39.23%, Val Acc: 34.94%, Test Acc: 35.56%  
+Epoch 19/150, Loss: 2.3047, Train Acc: 39.41%, Val Acc: 34.58%, Test Acc: 34.98%  
+Checkpoint saved at epoch 20
+Epoch 20/150, Loss: 2.2824, Train Acc: 40.08%, Val Acc: 35.10%, Test Acc: 36.26%  
+Epoch 21/150, Loss: 2.2639, Train Acc: 40.13%, Val Acc: 35.63%, Test Acc: 36.84%  
+Epoch 22/150, Loss: 2.2411, Train Acc: 40.96%, Val Acc: 36.20%, Test Acc: 36.38%  
+Epoch 23/150, Loss: 2.2169, Train Acc: 41.37%, Val Acc: 36.58%, Test Acc: 36.67%  
+Epoch 24/150, Loss: 2.2009, Train Acc: 41.85%, Val Acc: 37.43%, Test Acc: 37.14%  
+Epoch 25/150, Loss: 2.1908, Train Acc: 41.83%, Val Acc: 37.19%, Test Acc: 37.44%  
+Epoch 26/150, Loss: 2.1550, Train Acc: 42.80%, Val Acc: 37.04%, Test Acc: 37.52%  
+Epoch 27/150, Loss: 2.1477, Train Acc: 42.74%, Val Acc: 37.72%, Test Acc: 37.25%  
+Epoch 28/150, Loss: 2.1390, Train Acc: 42.94%, Val Acc: 37.27%, Test Acc: 37.12%  
+Epoch 29/150, Loss: 2.1052, Train Acc: 43.66%, Val Acc: 36.76%, Test Acc: 37.60%  
+Checkpoint saved at epoch 30
+Epoch 30/150, Loss: 2.0999, Train Acc: 43.80%, Val Acc: 37.38%, Test Acc: 38.61%  
+Epoch 31/150, Loss: 2.0861, Train Acc: 44.13%, Val Acc: 37.65%, Test Acc: 37.85%  
+Epoch 32/150, Loss: 2.0562, Train Acc: 45.06%, Val Acc: 38.23%, Test Acc: 38.45%  
+Epoch 33/150, Loss: 2.0444, Train Acc: 45.30%, Val Acc: 37.93%, Test Acc: 38.24%  
+Epoch 34/150, Loss: 2.0367, Train Acc: 45.30%, Val Acc: 38.40%, Test Acc: 38.88%  
+Epoch 35/150, Loss: 2.0278, Train Acc: 45.58%, Val Acc: 38.25%, Test Acc: 38.98%  
+Epoch 36/150, Loss: 2.0057, Train Acc: 45.73%, Val Acc: 38.82%, Test Acc: 39.44%  
+Epoch 37/150, Loss: 1.9997, Train Acc: 45.95%, Val Acc: 38.55%, Test Acc: 39.22%  
+Epoch 38/150, Loss: 1.9932, Train Acc: 46.03%, Val Acc: 38.81%, Test Acc: 39.17%  
+Epoch 39/150, Loss: 1.9762, Train Acc: 46.83%, Val Acc: 39.50%, Test Acc: 39.38%  
+Checkpoint saved at epoch 40
+Epoch 40/150, Loss: 1.9704, Train Acc: 46.52%, Val Acc: 38.36%, Test Acc: 39.44%  
+Epoch 41/150, Loss: 1.9551, Train Acc: 46.96%, Val Acc: 38.80%, Test Acc: 39.43%  
+Epoch 42/150, Loss: 1.9417, Train Acc: 47.52%, Val Acc: 38.87%, Test Acc: 39.96%  
+Epoch 43/150, Loss: 1.9341, Train Acc: 47.66%, Val Acc: 39.49%, Test Acc: 39.92%  
+Epoch 44/150, Loss: 1.9363, Train Acc: 47.52%, Val Acc: 38.74%, Test Acc: 39.43%  
+Epoch 45/150, Loss: 1.9122, Train Acc: 48.00%, Val Acc: 40.16%, Test Acc: 40.36%  
+Epoch 46/150, Loss: 1.9010, Train Acc: 48.31%, Val Acc: 39.12%, Test Acc: 40.58%  
+Epoch 47/150, Loss: 1.8882, Train Acc: 48.62%, Val Acc: 40.32%, Test Acc: 41.19%  
+Epoch 48/150, Loss: 1.8809, Train Acc: 48.74%, Val Acc: 40.09%, Test Acc: 40.17%  
+Epoch 49/150, Loss: 1.8712, Train Acc: 48.94%, Val Acc: 40.62%, Test Acc: 40.70%  
+Checkpoint saved at epoch 50
+Epoch 50/150, Loss: 1.8691, Train Acc: 49.00%, Val Acc: 39.34%, Test Acc: 40.69%  
+Epoch 51/150, Loss: 1.8586, Train Acc: 49.19%, Val Acc: 40.34%, Test Acc: 40.27%  
+Epoch 52/150, Loss: 1.8479, Train Acc: 49.22%, Val Acc: 40.77%, Test Acc: 40.75%  
+Epoch 53/150, Loss: 1.8366, Train Acc: 49.44%, Val Acc: 40.90%, Test Acc: 40.77%  
+Epoch 54/150, Loss: 1.8255, Train Acc: 49.85%, Val Acc: 40.32%, Test Acc: 40.98%  
+Epoch 55/150, Loss: 1.8190, Train Acc: 50.16%, Val Acc: 40.39%, Test Acc: 40.83%  
+Epoch 56/150, Loss: 1.8024, Train Acc: 50.41%, Val Acc: 40.92%, Test Acc: 41.26%  
+Epoch 57/150, Loss: 1.7954, Train Acc: 50.91%, Val Acc: 41.11%, Test Acc: 40.91%  
+Epoch 58/150, Loss: 1.7868, Train Acc: 50.91%, Val Acc: 41.01%, Test Acc: 40.22%  
+Epoch 59/150, Loss: 1.7942, Train Acc: 50.61%, Val Acc: 41.24%, Test Acc: 41.88%  
+Checkpoint saved at epoch 60
+Epoch 60/150, Loss: 1.7714, Train Acc: 51.27%, Val Acc: 40.57%, Test Acc: 41.65%  
+Epoch 61/150, Loss: 1.7647, Train Acc: 51.44%, Val Acc: 40.88%, Test Acc: 41.29%  
+Epoch 62/150, Loss: 1.7533, Train Acc: 51.79%, Val Acc: 40.58%, Test Acc: 42.00%  
+Epoch 63/150, Loss: 1.7551, Train Acc: 51.56%, Val Acc: 40.55%, Test Acc: 42.44%  
+Epoch 64/150, Loss: 1.7449, Train Acc: 51.74%, Val Acc: 41.57%, Test Acc: 42.21%  
+Epoch 65/150, Loss: 1.7353, Train Acc: 51.99%, Val Acc: 40.69%, Test Acc: 41.66%  
+Epoch 66/150, Loss: 1.7260, Train Acc: 52.34%, Val Acc: 41.84%, Test Acc: 42.07%  
+Epoch 67/150, Loss: 1.7205, Train Acc: 52.52%, Val Acc: 42.43%, Test Acc: 41.92%  
+Epoch 68/150, Loss: 1.7042, Train Acc: 52.59%, Val Acc: 41.39%, Test Acc: 42.80%  
+Epoch 69/150, Loss: 1.6942, Train Acc: 52.87%, Val Acc: 41.54%, Test Acc: 42.34%  
+Checkpoint saved at epoch 70
+Epoch 70/150, Loss: 1.6916, Train Acc: 53.03%, Val Acc: 42.18%, Test Acc: 42.62%  
+Epoch 71/150, Loss: 1.6955, Train Acc: 52.90%, Val Acc: 41.55%, Test Acc: 42.61%  
+Epoch 72/150, Loss: 1.6805, Train Acc: 53.29%, Val Acc: 42.00%, Test Acc: 43.01%  
+Epoch 73/150, Loss: 1.6709, Train Acc: 53.38%, Val Acc: 42.12%, Test Acc: 42.53%  
+Epoch 74/150, Loss: 1.6582, Train Acc: 54.11%, Val Acc: 42.10%, Test Acc: 42.27%  
+Epoch 75/150, Loss: 1.6536, Train Acc: 53.71%, Val Acc: 42.63%, Test Acc: 43.15%  
+Epoch 76/150, Loss: 1.6382, Train Acc: 54.54%, Val Acc: 42.44%, Test Acc: 42.76%  
+Epoch 77/150, Loss: 1.6429, Train Acc: 54.43%, Val Acc: 42.61%, Test Acc: 42.22%  
+Epoch 78/150, Loss: 1.6333, Train Acc: 54.49%, Val Acc: 41.79%, Test Acc: 43.00%  
+Epoch 79/150, Loss: 1.6224, Train Acc: 54.69%, Val Acc: 42.18%, Test Acc: 42.22%  
+Checkpoint saved at epoch 80
+Epoch 80/150, Loss: 1.6228, Train Acc: 54.72%, Val Acc: 42.31%, Test Acc: 42.83%  
+Epoch 81/150, Loss: 1.6119, Train Acc: 54.94%, Val Acc: 42.54%, Test Acc: 42.78%  
+Epoch 82/150, Loss: 1.6100, Train Acc: 54.94%, Val Acc: 42.10%, Test Acc: 43.36%  
+Epoch 83/150, Loss: 1.5965, Train Acc: 55.12%, Val Acc: 42.53%, Test Acc: 43.33%  
+Epoch 84/150, Loss: 1.5903, Train Acc: 55.42%, Val Acc: 42.73%, Test Acc: 43.52%  
+Epoch 85/150, Loss: 1.5835, Train Acc: 55.62%, Val Acc: 43.26%, Test Acc: 43.03%  
+Epoch 86/150, Loss: 1.5708, Train Acc: 55.92%, Val Acc: 42.32%, Test Acc: 43.63%  
+Epoch 87/150, Loss: 1.5681, Train Acc: 55.81%, Val Acc: 42.13%, Test Acc: 43.23%  
+Epoch 88/150, Loss: 1.5688, Train Acc: 56.22%, Val Acc: 42.85%, Test Acc: 43.66%  
+Epoch 89/150, Loss: 1.5556, Train Acc: 56.44%, Val Acc: 42.76%, Test Acc: 43.55%  
+Checkpoint saved at epoch 90
+Epoch 90/150, Loss: 1.5444, Train Acc: 56.78%, Val Acc: 42.63%, Test Acc: 43.49%  
+Epoch 91/150, Loss: 1.5453, Train Acc: 56.31%, Val Acc: 43.10%, Test Acc: 42.89%  
+Epoch 92/150, Loss: 1.5356, Train Acc: 56.80%, Val Acc: 43.44%, Test Acc: 43.60%  
+Epoch 93/150, Loss: 1.5374, Train Acc: 56.68%, Val Acc: 43.38%, Test Acc: 42.85%  
+Epoch 94/150, Loss: 1.5228, Train Acc: 57.09%, Val Acc: 43.75%, Test Acc: 44.53%  
+Epoch 95/150, Loss: 1.5141, Train Acc: 57.26%, Val Acc: 43.20%, Test Acc: 43.53%  
+Epoch 96/150, Loss: 1.5082, Train Acc: 57.42%, Val Acc: 43.43%, Test Acc: 43.60%  
+Epoch 97/150, Loss: 1.4938, Train Acc: 57.72%, Val Acc: 43.33%, Test Acc: 43.63%  
+Epoch 98/150, Loss: 1.4964, Train Acc: 57.82%, Val Acc: 43.99%, Test Acc: 44.49%  
+Epoch 99/150, Loss: 1.4881, Train Acc: 58.06%, Val Acc: 42.86%, Test Acc: 44.15%  
+Checkpoint saved at epoch 100
+Epoch 100/150, Loss: 1.4828, Train Acc: 58.25%, Val Acc: 42.78%, Test Acc: 43.55%  
+Epoch 101/150, Loss: 1.4800, Train Acc: 58.09%, Val Acc: 43.30%, Test Acc: 43.95%  
+Epoch 102/150, Loss: 1.4717, Train Acc: 58.12%, Val Acc: 43.99%, Test Acc: 43.36%  
+Epoch 103/150, Loss: 1.4641, Train Acc: 58.38%, Val Acc: 43.97%, Test Acc: 43.72%  
+Epoch 104/150, Loss: 1.4520, Train Acc: 58.68%, Val Acc: 43.20%, Test Acc: 43.55%  
+Epoch 105/150, Loss: 1.4588, Train Acc: 58.55%, Val Acc: 43.79%, Test Acc: 43.96%  
+Epoch 106/150, Loss: 1.4454, Train Acc: 59.07%, Val Acc: 44.04%, Test Acc: 44.11%  
+Epoch 107/150, Loss: 1.4477, Train Acc: 58.79%, Val Acc: 43.81%, Test Acc: 44.91%  
+Epoch 108/150, Loss: 1.4511, Train Acc: 58.76%, Val Acc: 43.33%, Test Acc: 43.65%  
+Epoch 109/150, Loss: 1.4444, Train Acc: 59.03%, Val Acc: 43.94%, Test Acc: 43.51%  
+Checkpoint saved at epoch 110
+Epoch 110/150, Loss: 1.4257, Train Acc: 59.49%, Val Acc: 43.89%, Test Acc: 44.35%  
+Epoch 111/150, Loss: 1.4336, Train Acc: 59.20%, Val Acc: 43.29%, Test Acc: 44.87%  
+Epoch 112/150, Loss: 1.4265, Train Acc: 59.57%, Val Acc: 44.21%, Test Acc: 44.09%  
+Epoch 113/150, Loss: 1.4208, Train Acc: 59.55%, Val Acc: 43.88%, Test Acc: 44.62%  
+Epoch 114/150, Loss: 1.4070, Train Acc: 59.77%, Val Acc: 44.06%, Test Acc: 45.15%  
+Epoch 115/150, Loss: 1.4049, Train Acc: 60.04%, Val Acc: 43.87%, Test Acc: 44.75%  
+Epoch 116/150, Loss: 1.3989, Train Acc: 60.16%, Val Acc: 43.94%, Test Acc: 44.32%  
+Epoch 117/150, Loss: 1.3989, Train Acc: 60.14%, Val Acc: 43.60%, Test Acc: 44.25%  
+Epoch 118/150, Loss: 1.3952, Train Acc: 60.43%, Val Acc: 44.33%, Test Acc: 44.41%  
+Epoch 119/150, Loss: 1.3937, Train Acc: 60.37%, Val Acc: 44.08%, Test Acc: 43.94%  
+Checkpoint saved at epoch 120
+Epoch 120/150, Loss: 1.3825, Train Acc: 60.53%, Val Acc: 44.45%, Test Acc: 44.45%  
+Epoch 121/150, Loss: 1.3848, Train Acc: 60.38%, Val Acc: 44.34%, Test Acc: 45.66%  
+Epoch 122/150, Loss: 1.3883, Train Acc: 60.27%, Val Acc: 44.06%, Test Acc: 44.85%  
+Epoch 123/150, Loss: 1.3749, Train Acc: 60.61%, Val Acc: 44.10%, Test Acc: 44.16%  
+Epoch 124/150, Loss: 1.3781, Train Acc: 60.99%, Val Acc: 44.11%, Test Acc: 44.79%  
+Epoch 125/150, Loss: 1.3781, Train Acc: 60.83%, Val Acc: 44.75%, Test Acc: 44.58%  
+Epoch 126/150, Loss: 1.3660, Train Acc: 61.24%, Val Acc: 43.69%, Test Acc: 44.92%  
+Epoch 127/150, Loss: 1.3676, Train Acc: 60.99%, Val Acc: 43.98%, Test Acc: 44.89%  
+Epoch 128/150, Loss: 1.3556, Train Acc: 61.48%, Val Acc: 44.62%, Test Acc: 44.72%  
+Epoch 129/150, Loss: 1.3623, Train Acc: 60.97%, Val Acc: 44.77%, Test Acc: 44.50%  
+Checkpoint saved at epoch 130
+Epoch 130/150, Loss: 1.3579, Train Acc: 61.35%, Val Acc: 43.87%, Test Acc: 44.63%  
+Epoch 131/150, Loss: 1.3663, Train Acc: 60.97%, Val Acc: 44.20%, Test Acc: 45.08%  
+Epoch 132/150, Loss: 1.3574, Train Acc: 61.28%, Val Acc: 43.96%, Test Acc: 44.83%  
+Epoch 133/150, Loss: 1.3585, Train Acc: 61.09%, Val Acc: 44.02%, Test Acc: 44.02%  
+Epoch 134/150, Loss: 1.3421, Train Acc: 61.62%, Val Acc: 45.18%, Test Acc: 44.78%  
+Epoch 135/150, Loss: 1.3433, Train Acc: 61.60%, Val Acc: 44.84%, Test Acc: 45.71%  
+Epoch 136/150, Loss: 1.3406, Train Acc: 61.55%, Val Acc: 44.31%, Test Acc: 44.30%  
+Epoch 137/150, Loss: 1.3442, Train Acc: 61.75%, Val Acc: 44.44%, Test Acc: 45.20%  
+Epoch 138/150, Loss: 1.3480, Train Acc: 61.61%, Val Acc: 44.47%, Test Acc: 44.97%  
+Epoch 139/150, Loss: 1.3412, Train Acc: 61.67%, Val Acc: 44.71%, Test Acc: 44.53%  
+Checkpoint saved at epoch 140
+Epoch 140/150, Loss: 1.3391, Train Acc: 61.80%, Val Acc: 44.96%, Test Acc: 44.67%  
+Epoch 141/150, Loss: 1.3374, Train Acc: 61.77%, Val Acc: 44.50%, Test Acc: 44.93%  
+Epoch 142/150, Loss: 1.3387, Train Acc: 61.84%, Val Acc: 44.22%, Test Acc: 44.89%  
+Epoch 143/150, Loss: 1.3340, Train Acc: 61.83%, Val Acc: 44.22%, Test Acc: 45.39%  
+Epoch 144/150, Loss: 1.3347, Train Acc: 61.73%, Val Acc: 44.67%, Test Acc: 45.16%  
+Epoch 145/150, Loss: 1.3346, Train Acc: 61.83%, Val Acc: 45.12%, Test Acc: 44.59%  
+Epoch 146/150, Loss: 1.3372, Train Acc: 61.88%, Val Acc: 44.73%, Test Acc: 45.32%  
+Epoch 147/150, Loss: 1.3440, Train Acc: 61.42%, Val Acc: 44.53%, Test Acc: 44.96%  
+Epoch 148/150, Loss: 1.3231, Train Acc: 62.10%, Val Acc: 44.48%, Test Acc: 45.51%  
+Epoch 149/150, Loss: 1.3283, Train Acc: 61.73%, Val Acc: 44.75%, Test Acc: 45.04%  
+Checkpoint saved at epoch 150
+Epoch 150/150, Loss: 1.3342, Train Acc: 61.98%, Val Acc: 44.36%, Test Acc: 45.61%
+
+#### Plots
+
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=1e-5/test_accuracy.png)
+
+# Train with AdamW
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+| ------ | ---------- | -------- | ------------ | ------------- |
+| 150    | 128        | 0.9      | 5e-4         | 1e-3          |
+
+#### Results log
+
+Epoch 1/150, Loss: 4.1238, Train Acc: 6.47%, Val Acc: 10.54%, Test Acc: 9.74%  
+Epoch 2/150, Loss: 3.6983, Train Acc: 12.94%, Val Acc: 15.73%, Test Acc: 15.36%  
+Epoch 3/150, Loss: 3.3922, Train Acc: 18.11%, Val Acc: 18.99%, Test Acc: 19.29%  
+Epoch 4/150, Loss: 3.2078, Train Acc: 21.49%, Val Acc: 22.41%, Test Acc: 22.10%  
+Epoch 5/150, Loss: 3.0495, Train Acc: 24.39%, Val Acc: 25.00%, Test Acc: 25.48%  
+Epoch 6/150, Loss: 2.9208, Train Acc: 26.95%, Val Acc: 27.06%, Test Acc: 27.43%  
+Epoch 7/150, Loss: 2.8208, Train Acc: 28.84%, Val Acc: 27.29%, Test Acc: 27.98%  
+Epoch 8/150, Loss: 2.7316, Train Acc: 30.73%, Val Acc: 29.73%, Test Acc: 29.79%  
+Epoch 9/150, Loss: 2.6797, Train Acc: 31.59%, Val Acc: 30.68%, Test Acc: 30.89%  
+Checkpoint saved at epoch 10
+Epoch 10/150, Loss: 2.6169, Train Acc: 32.65%, Val Acc: 31.41%, Test Acc: 31.31%  
+Epoch 11/150, Loss: 2.5751, Train Acc: 33.91%, Val Acc: 32.76%, Test Acc: 32.79%  
+Epoch 12/150, Loss: 2.5148, Train Acc: 35.26%, Val Acc: 32.33%, Test Acc: 32.67%  
+Epoch 13/150, Loss: 2.4833, Train Acc: 35.79%, Val Acc: 34.37%, Test Acc: 34.01%  
+Epoch 14/150, Loss: 2.4491, Train Acc: 36.53%, Val Acc: 32.97%, Test Acc: 33.63%  
+Epoch 15/150, Loss: 2.4207, Train Acc: 37.21%, Val Acc: 34.01%, Test Acc: 34.37%  
+Epoch 16/150, Loss: 2.3940, Train Acc: 37.56%, Val Acc: 34.41%, Test Acc: 34.23%  
+Epoch 17/150, Loss: 2.3622, Train Acc: 38.25%, Val Acc: 34.58%, Test Acc: 34.58%  
+Epoch 18/150, Loss: 2.3247, Train Acc: 39.08%, Val Acc: 34.65%, Test Acc: 35.47%  
+Epoch 19/150, Loss: 2.3199, Train Acc: 38.99%, Val Acc: 35.19%, Test Acc: 35.37%  
+Checkpoint saved at epoch 20
+Epoch 20/150, Loss: 2.2907, Train Acc: 39.63%, Val Acc: 35.09%, Test Acc: 35.82%  
+Epoch 21/150, Loss: 2.2684, Train Acc: 40.11%, Val Acc: 36.59%, Test Acc: 37.00%  
+Epoch 22/150, Loss: 2.2449, Train Acc: 40.72%, Val Acc: 35.96%, Test Acc: 36.53%  
+Epoch 23/150, Loss: 2.2272, Train Acc: 41.22%, Val Acc: 36.52%, Test Acc: 37.23%  
+Epoch 24/150, Loss: 2.1965, Train Acc: 41.61%, Val Acc: 37.37%, Test Acc: 37.35%  
+Epoch 25/150, Loss: 2.1920, Train Acc: 41.94%, Val Acc: 36.77%, Test Acc: 37.28%  
+Epoch 26/150, Loss: 2.1715, Train Acc: 42.13%, Val Acc: 36.39%, Test Acc: 36.51%  
+Epoch 27/150, Loss: 2.1621, Train Acc: 42.56%, Val Acc: 37.47%, Test Acc: 37.26%  
+Epoch 28/150, Loss: 2.1405, Train Acc: 43.05%, Val Acc: 38.08%, Test Acc: 37.89%  
+Epoch 29/150, Loss: 2.1297, Train Acc: 43.27%, Val Acc: 37.55%, Test Acc: 37.59%  
+Checkpoint saved at epoch 30
+Epoch 30/150, Loss: 2.1086, Train Acc: 43.82%, Val Acc: 36.78%, Test Acc: 37.82%  
+Epoch 31/150, Loss: 2.0974, Train Acc: 44.08%, Val Acc: 37.89%, Test Acc: 38.05%  
+Epoch 32/150, Loss: 2.0807, Train Acc: 44.19%, Val Acc: 38.43%, Test Acc: 38.20%  
+Epoch 33/150, Loss: 2.0713, Train Acc: 44.20%, Val Acc: 38.40%, Test Acc: 38.29%  
+Epoch 34/150, Loss: 2.0602, Train Acc: 44.57%, Val Acc: 38.10%, Test Acc: 38.54%  
+Epoch 35/150, Loss: 2.0444, Train Acc: 45.00%, Val Acc: 38.46%, Test Acc: 38.78%  
+Epoch 36/150, Loss: 2.0339, Train Acc: 45.22%, Val Acc: 38.11%, Test Acc: 38.85%  
+Epoch 37/150, Loss: 2.0264, Train Acc: 45.72%, Val Acc: 38.48%, Test Acc: 39.23%  
+Epoch 38/150, Loss: 2.0049, Train Acc: 45.95%, Val Acc: 39.29%, Test Acc: 39.79%  
+Epoch 39/150, Loss: 1.9903, Train Acc: 46.29%, Val Acc: 39.58%, Test Acc: 39.71%  
+Checkpoint saved at epoch 40
+Epoch 40/150, Loss: 1.9956, Train Acc: 46.37%, Val Acc: 38.54%, Test Acc: 38.67%  
+Epoch 41/150, Loss: 1.9858, Train Acc: 46.38%, Val Acc: 39.30%, Test Acc: 40.41%  
+Epoch 42/150, Loss: 1.9667, Train Acc: 46.93%, Val Acc: 38.85%, Test Acc: 39.06%  
+Epoch 43/150, Loss: 1.9509, Train Acc: 47.19%, Val Acc: 39.50%, Test Acc: 39.13%  
+Epoch 44/150, Loss: 1.9546, Train Acc: 47.12%, Val Acc: 39.26%, Test Acc: 39.85%  
+Epoch 45/150, Loss: 1.9366, Train Acc: 47.55%, Val Acc: 39.34%, Test Acc: 40.38%  
+Epoch 46/150, Loss: 1.9269, Train Acc: 47.79%, Val Acc: 40.04%, Test Acc: 39.57%  
+Epoch 47/150, Loss: 1.9217, Train Acc: 47.74%, Val Acc: 39.88%, Test Acc: 40.55%  
+Epoch 48/150, Loss: 1.8940, Train Acc: 48.47%, Val Acc: 40.30%, Test Acc: 40.36%  
+Epoch 49/150, Loss: 1.8825, Train Acc: 48.78%, Val Acc: 40.08%, Test Acc: 40.75%  
+Checkpoint saved at epoch 50
+Epoch 50/150, Loss: 1.8871, Train Acc: 48.45%, Val Acc: 40.11%, Test Acc: 39.91%  
+Epoch 51/150, Loss: 1.8722, Train Acc: 48.91%, Val Acc: 39.50%, Test Acc: 39.06%  
+Epoch 52/150, Loss: 1.8701, Train Acc: 48.73%, Val Acc: 40.37%, Test Acc: 39.82%  
+Epoch 53/150, Loss: 1.8595, Train Acc: 49.12%, Val Acc: 40.66%, Test Acc: 40.25%  
+Epoch 54/150, Loss: 1.8431, Train Acc: 49.81%, Val Acc: 40.73%, Test Acc: 40.60%  
+Epoch 55/150, Loss: 1.8439, Train Acc: 49.51%, Val Acc: 40.47%, Test Acc: 40.81%  
+Epoch 56/150, Loss: 1.8306, Train Acc: 49.82%, Val Acc: 41.31%, Test Acc: 41.50%  
+Epoch 57/150, Loss: 1.8223, Train Acc: 50.24%, Val Acc: 41.40%, Test Acc: 40.92%  
+Epoch 58/150, Loss: 1.8105, Train Acc: 50.37%, Val Acc: 41.20%, Test Acc: 41.69%  
+Epoch 59/150, Loss: 1.8127, Train Acc: 50.34%, Val Acc: 40.71%, Test Acc: 41.45%  
+Checkpoint saved at epoch 60
+Epoch 60/150, Loss: 1.7868, Train Acc: 50.59%, Val Acc: 41.29%, Test Acc: 41.26%  
+Epoch 61/150, Loss: 1.8028, Train Acc: 50.48%, Val Acc: 39.97%, Test Acc: 40.77%  
+Epoch 62/150, Loss: 1.7849, Train Acc: 51.02%, Val Acc: 40.49%, Test Acc: 41.31%  
+Epoch 63/150, Loss: 1.7788, Train Acc: 51.03%, Val Acc: 40.99%, Test Acc: 41.05%  
+Epoch 64/150, Loss: 1.7731, Train Acc: 51.38%, Val Acc: 41.23%, Test Acc: 41.52%  
+Epoch 65/150, Loss: 1.7652, Train Acc: 51.42%, Val Acc: 42.09%, Test Acc: 41.94%  
+Epoch 66/150, Loss: 1.7507, Train Acc: 51.64%, Val Acc: 40.80%, Test Acc: 41.93%  
+Epoch 67/150, Loss: 1.7347, Train Acc: 52.23%, Val Acc: 41.47%, Test Acc: 41.27%  
+Epoch 68/150, Loss: 1.7341, Train Acc: 52.17%, Val Acc: 41.58%, Test Acc: 41.52%  
+Epoch 69/150, Loss: 1.7224, Train Acc: 52.27%, Val Acc: 41.19%, Test Acc: 42.08%  
+Checkpoint saved at epoch 70
+Epoch 70/150, Loss: 1.7215, Train Acc: 52.66%, Val Acc: 41.73%, Test Acc: 42.34%  
+Epoch 71/150, Loss: 1.7153, Train Acc: 52.49%, Val Acc: 42.15%, Test Acc: 42.97%  
+Epoch 72/150, Loss: 1.7060, Train Acc: 52.75%, Val Acc: 41.33%, Test Acc: 42.15%  
+Epoch 73/150, Loss: 1.6901, Train Acc: 52.98%, Val Acc: 41.77%, Test Acc: 42.06%  
+Epoch 74/150, Loss: 1.6954, Train Acc: 52.95%, Val Acc: 41.75%, Test Acc: 41.91%  
+Epoch 75/150, Loss: 1.6744, Train Acc: 53.38%, Val Acc: 42.24%, Test Acc: 41.99%  
+Epoch 76/150, Loss: 1.6797, Train Acc: 53.41%, Val Acc: 42.03%, Test Acc: 42.50%  
+Epoch 77/150, Loss: 1.6582, Train Acc: 54.09%, Val Acc: 42.27%, Test Acc: 42.41%  
+Epoch 78/150, Loss: 1.6573, Train Acc: 54.05%, Val Acc: 41.15%, Test Acc: 42.10%  
+Epoch 79/150, Loss: 1.6433, Train Acc: 54.12%, Val Acc: 41.85%, Test Acc: 42.70%  
+Checkpoint saved at epoch 80
+Epoch 80/150, Loss: 1.6476, Train Acc: 54.06%, Val Acc: 42.06%, Test Acc: 43.08%  
+Epoch 81/150, Loss: 1.6394, Train Acc: 54.26%, Val Acc: 42.04%, Test Acc: 42.56%  
+Epoch 82/150, Loss: 1.6363, Train Acc: 54.56%, Val Acc: 42.35%, Test Acc: 42.46%  
+Epoch 83/150, Loss: 1.6157, Train Acc: 54.79%, Val Acc: 42.28%, Test Acc: 42.45%  
+Epoch 84/150, Loss: 1.6213, Train Acc: 54.71%, Val Acc: 42.63%, Test Acc: 43.05%  
+Epoch 85/150, Loss: 1.6089, Train Acc: 54.91%, Val Acc: 42.72%, Test Acc: 42.70%  
+Epoch 86/150, Loss: 1.6005, Train Acc: 55.21%, Val Acc: 42.39%, Test Acc: 43.09%  
+Epoch 87/150, Loss: 1.5970, Train Acc: 55.38%, Val Acc: 42.55%, Test Acc: 43.88%  
+Epoch 88/150, Loss: 1.5873, Train Acc: 55.76%, Val Acc: 42.29%, Test Acc: 43.57%  
+Epoch 89/150, Loss: 1.5844, Train Acc: 55.77%, Val Acc: 42.83%, Test Acc: 43.13%  
+Checkpoint saved at epoch 90
+Epoch 90/150, Loss: 1.5718, Train Acc: 55.84%, Val Acc: 42.85%, Test Acc: 43.30%  
+Epoch 91/150, Loss: 1.5830, Train Acc: 55.56%, Val Acc: 42.86%, Test Acc: 43.63%  
+Epoch 92/150, Loss: 1.5682, Train Acc: 55.95%, Val Acc: 42.57%, Test Acc: 44.16%  
+Epoch 93/150, Loss: 1.5625, Train Acc: 56.25%, Val Acc: 43.19%, Test Acc: 43.21%  
+Epoch 94/150, Loss: 1.5592, Train Acc: 56.00%, Val Acc: 43.51%, Test Acc: 42.67%  
+Epoch 95/150, Loss: 1.5486, Train Acc: 56.60%, Val Acc: 42.27%, Test Acc: 43.66%  
+Epoch 96/150, Loss: 1.5356, Train Acc: 56.97%, Val Acc: 42.51%, Test Acc: 43.29%  
+Epoch 97/150, Loss: 1.5374, Train Acc: 56.98%, Val Acc: 43.59%, Test Acc: 43.94%  
+Epoch 98/150, Loss: 1.5330, Train Acc: 56.94%, Val Acc: 43.09%, Test Acc: 43.24%  
+Epoch 99/150, Loss: 1.5197, Train Acc: 57.34%, Val Acc: 42.97%, Test Acc: 43.78%  
+Checkpoint saved at epoch 100
+Epoch 100/150, Loss: 1.5205, Train Acc: 57.37%, Val Acc: 43.16%, Test Acc: 43.32%  
+Epoch 101/150, Loss: 1.5147, Train Acc: 57.48%, Val Acc: 42.73%, Test Acc: 43.55%  
+Epoch 102/150, Loss: 1.5062, Train Acc: 57.48%, Val Acc: 43.17%, Test Acc: 43.58%  
+Epoch 103/150, Loss: 1.5034, Train Acc: 57.48%, Val Acc: 43.70%, Test Acc: 43.82%  
+Epoch 104/150, Loss: 1.4942, Train Acc: 57.87%, Val Acc: 43.64%, Test Acc: 44.03%  
+Epoch 105/150, Loss: 1.4891, Train Acc: 58.21%, Val Acc: 43.85%, Test Acc: 43.61%  
+Epoch 106/150, Loss: 1.4821, Train Acc: 58.26%, Val Acc: 43.35%, Test Acc: 43.62%  
+Epoch 107/150, Loss: 1.4923, Train Acc: 57.87%, Val Acc: 43.25%, Test Acc: 43.77%  
+Epoch 108/150, Loss: 1.4723, Train Acc: 58.41%, Val Acc: 43.41%, Test Acc: 44.49%  
+Epoch 109/150, Loss: 1.4754, Train Acc: 58.48%, Val Acc: 43.35%, Test Acc: 44.02%  
+Checkpoint saved at epoch 110
+Epoch 110/150, Loss: 1.4590, Train Acc: 58.79%, Val Acc: 43.76%, Test Acc: 44.13%  
+Epoch 111/150, Loss: 1.4655, Train Acc: 58.80%, Val Acc: 43.12%, Test Acc: 44.10%  
+Epoch 112/150, Loss: 1.4567, Train Acc: 58.84%, Val Acc: 43.84%, Test Acc: 43.33%  
+Epoch 113/150, Loss: 1.4560, Train Acc: 58.42%, Val Acc: 44.21%, Test Acc: 44.37%  
+Epoch 114/150, Loss: 1.4516, Train Acc: 58.65%, Val Acc: 43.94%, Test Acc: 44.52%  
+Epoch 115/150, Loss: 1.4424, Train Acc: 59.13%, Val Acc: 43.77%, Test Acc: 44.25%  
+Epoch 116/150, Loss: 1.4418, Train Acc: 59.09%, Val Acc: 43.75%, Test Acc: 44.54%  
+Epoch 117/150, Loss: 1.4408, Train Acc: 59.39%, Val Acc: 43.38%, Test Acc: 44.14%  
+Epoch 118/150, Loss: 1.4282, Train Acc: 59.55%, Val Acc: 43.98%, Test Acc: 44.16%  
+Epoch 119/150, Loss: 1.4269, Train Acc: 59.59%, Val Acc: 44.37%, Test Acc: 44.37%  
+Checkpoint saved at epoch 120
+Epoch 120/150, Loss: 1.4195, Train Acc: 59.69%, Val Acc: 43.59%, Test Acc: 44.30%  
+Epoch 121/150, Loss: 1.4227, Train Acc: 59.70%, Val Acc: 44.00%, Test Acc: 44.21%  
+Epoch 122/150, Loss: 1.4229, Train Acc: 59.67%, Val Acc: 43.94%, Test Acc: 44.26%  
+Epoch 123/150, Loss: 1.4205, Train Acc: 59.91%, Val Acc: 44.16%, Test Acc: 44.22%  
+Epoch 124/150, Loss: 1.4154, Train Acc: 59.76%, Val Acc: 44.15%, Test Acc: 44.41%  
+Epoch 125/150, Loss: 1.4082, Train Acc: 59.93%, Val Acc: 43.63%, Test Acc: 44.14%  
+Epoch 126/150, Loss: 1.4086, Train Acc: 60.24%, Val Acc: 44.39%, Test Acc: 44.39%  
+Epoch 127/150, Loss: 1.4026, Train Acc: 60.06%, Val Acc: 44.39%, Test Acc: 44.97%  
+Epoch 128/150, Loss: 1.4090, Train Acc: 59.94%, Val Acc: 43.66%, Test Acc: 44.34%  
+Epoch 129/150, Loss: 1.4026, Train Acc: 60.17%, Val Acc: 45.16%, Test Acc: 44.44%  
+Checkpoint saved at epoch 130
+Epoch 130/150, Loss: 1.4066, Train Acc: 60.05%, Val Acc: 44.47%, Test Acc: 44.96%  
+Epoch 131/150, Loss: 1.3963, Train Acc: 60.39%, Val Acc: 43.82%, Test Acc: 44.22%  
+Epoch 132/150, Loss: 1.3923, Train Acc: 60.30%, Val Acc: 43.97%, Test Acc: 44.70%  
+Epoch 133/150, Loss: 1.3992, Train Acc: 60.46%, Val Acc: 44.81%, Test Acc: 44.74%  
+Epoch 134/150, Loss: 1.3908, Train Acc: 60.71%, Val Acc: 43.93%, Test Acc: 44.78%  
+Epoch 135/150, Loss: 1.3835, Train Acc: 60.92%, Val Acc: 44.06%, Test Acc: 44.93%  
+Epoch 136/150, Loss: 1.3854, Train Acc: 60.85%, Val Acc: 44.84%, Test Acc: 44.35%  
+Epoch 137/150, Loss: 1.3889, Train Acc: 60.75%, Val Acc: 44.24%, Test Acc: 44.71%  
+Epoch 138/150, Loss: 1.3879, Train Acc: 60.74%, Val Acc: 44.18%, Test Acc: 44.76%  
+Epoch 139/150, Loss: 1.3819, Train Acc: 60.69%, Val Acc: 44.34%, Test Acc: 44.33%  
+Checkpoint saved at epoch 140
+Epoch 140/150, Loss: 1.3715, Train Acc: 60.91%, Val Acc: 44.37%, Test Acc: 45.00%  
+Epoch 141/150, Loss: 1.3746, Train Acc: 61.12%, Val Acc: 44.10%, Test Acc: 44.86%  
+Epoch 142/150, Loss: 1.3777, Train Acc: 60.69%, Val Acc: 44.69%, Test Acc: 44.83%  
+Epoch 143/150, Loss: 1.3791, Train Acc: 60.58%, Val Acc: 44.36%, Test Acc: 45.30%  
+Epoch 144/150, Loss: 1.3790, Train Acc: 60.65%, Val Acc: 44.97%, Test Acc: 45.51%  
+Epoch 145/150, Loss: 1.3818, Train Acc: 60.93%, Val Acc: 44.84%, Test Acc: 45.14%  
+Epoch 146/150, Loss: 1.3740, Train Acc: 61.00%, Val Acc: 44.47%, Test Acc: 44.28%  
+Epoch 147/150, Loss: 1.3787, Train Acc: 60.91%, Val Acc: 44.91%, Test Acc: 45.18%  
+Epoch 148/150, Loss: 1.3679, Train Acc: 61.02%, Val Acc: 44.65%, Test Acc: 45.31%  
+Epoch 149/150, Loss: 1.3733, Train Acc: 61.06%, Val Acc: 44.32%, Test Acc: 45.09%  
+Checkpoint saved at epoch 150
+Epoch 150/150, Loss: 1.3731, Train Acc: 61.13%, Val Acc: 44.48%, Test Acc: 45.11%
+
+#### Plots
+
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/train_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/val_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/test_loss.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/train_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/val_accuracy.png)
+![Plot](./Plot/e=150_bs=128_m=0.9_lr=1e-3_wd=5e-4/test_accuracy.png)
+
+# Train with AdamW
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+| ------ | ---------- | -------- | ------------ | ------------- |
+| 150    |            |          |              |               |
+
+#### Results log
+
+#### Plots
+
+![Plot](./Plot/insert_folder_here/train_loss.png)
+![Plot](./Plot/insert_folder_here/val_loss.png)
+![Plot](./Plot/insert_folder_here/test_loss.png)
+![Plot](./Plot/insert_folder_here/train_accuracy.png)
+![Plot](./Plot/insert_folder_here/val_accuracy.png)
+![Plot](./Plot/insert_folder_here/test_accuracy.png)
