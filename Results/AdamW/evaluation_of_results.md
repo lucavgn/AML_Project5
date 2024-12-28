@@ -11,7 +11,7 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/train_loss.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/train_loss.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/train_loss.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_loss.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_loss.png) |
 |     |            |      |              |               |                                                                    |
 |     |            |      |              |               |                                                                    |
 
@@ -26,7 +26,7 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/val_loss.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/val_loss.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/val_loss.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_loss.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_loss.png) |
 |     |            |      |              |               |                                                                  |
 |     |            |      |              |               |                                                                  |
 
@@ -41,7 +41,7 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/test_loss.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/test_loss.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/test_loss.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_loss.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_loss.png) |
 |     |            |      |              |               |                                                                   |
 |     |            |      |              |               |                                                                   |
 
@@ -56,7 +56,7 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/train_accuracy.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/train_accuracy.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/train_accuracy.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_accuracy.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_accuracy.png) |
 |     |            |      |              |               |                                                                        |
 |     |            |      |              |               |                                                                        |
 
@@ -71,7 +71,7 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/val_accuracy.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/val_accuracy.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/val_accuracy.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_accuracy.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_accuracy.png) |
 |     |            |      |              |               |                                                                      |
 |     |            |      |              |               |                                                                      |
 
@@ -86,6 +86,6 @@
 | 5   | 128        | 0.9  | 1e-2         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-2/test_accuracy.png)  |
 | 6   | 128        | 0.9  | 1e-4         | 1e-4          | ![Plot](./Plot/e=150_bs=128_b=0.9_lr=1e-4_wd=1e-4/test_accuracy.png)  |
 | 7   | 64         | 0.9  | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=64_b=0.9_lr=1e-3_wd=1e-4/test_accuracy.png)   |
-| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=150_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_accuracy.png) |
+| 8   | 128        | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_accuracy.png) |
 |     |            |      |              |               |                                                                       |
 |     |            |      |              |               |                                                                       |
