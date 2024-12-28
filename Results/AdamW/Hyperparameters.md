@@ -1,7 +1,7 @@
 # Hyperparameters tuning
 
 - Batch Size: 128 -> 64 (We want to exclude a lower batch as it should increase the noise)
-- Momentum: 0.9 -> 08 Should increase the past gradients effect
+- Beta: 0.9 -> 08 Should increase the past gradients effect
 - Learning Rate: 1e-3
 - Weigth Decay:
     
