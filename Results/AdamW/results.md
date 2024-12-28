@@ -1,5 +1,8 @@
-# Train with AdamW (epochs = 150 batch_size = 128 beta = 0.9 lr= 1e-4 weight_decay = 1e-2) without the seed
+# Train with AdamW without the seed
 
+| Epochs | batch_size | beta | weight_decay | learning_rate |
+| ------ | ---------- | ---- | ------------ | ------------- |
+| 150    | 128        | 0.9  | 1e-4         | 1e-2          |
 #### Results log
 
 - Epoch 1/150, Loss: 4.3285, Train Acc: 4.33%, Val Acc: 7.18%
