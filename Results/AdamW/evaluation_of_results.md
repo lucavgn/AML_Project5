@@ -14,6 +14,7 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_loss.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/train_loss.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/train_loss.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/train_loss.png)  |
 |     |             |      |              |               |                                                                    |
 
 ## Validation Loss
@@ -30,6 +31,7 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_loss.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/val_loss.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/val_loss.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/val_loss.png)  |
 |     |             |      |              |               |                                                                  |
 
 ## Test Loss
@@ -46,6 +48,7 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_loss.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/test_loss.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/test_loss.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/test_loss.png)  |
 |     |             |      |              |               |                                                                   |
 
 ## Train Accuracy
@@ -62,6 +65,7 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/train_accuracy.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/train_accuracy.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/train_accuracy.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/train_accuracy.png)  |
 |     |             |      |              |               |                                                                        |
 
 ## Validation Accuracy
@@ -78,6 +82,7 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/val_accuracy.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/val_accuracy.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/val_accuracy.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/val_accuracy.png)  |
 |     |             |      |              |               |                                                                      |
 
 ## Test Accuracy
@@ -94,4 +99,5 @@
 | 8   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.95_lr=1e-3_wd=1e-4/test_accuracy.png) |
 | 9   | 128         | 0.8  | 1e-4         | 1e-3          | ![Plot](./Plot/e=100_bs=128_b=0.8_lr=1e-3_wd=1e-4/test_accuracy.png)  |
 | 10  | 128 dropout | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/with_dropout_0.5/test_accuracy.png)                    |
+| 11   | 128         | 0.95 | 1e-4         | 1e-3          | ![Plot](./Plot/new_trasform/test_accuracy.png)  |
 |     |             |      |              |               |                                                                       |
