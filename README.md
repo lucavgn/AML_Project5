@@ -41,9 +41,9 @@ Based on the results:
 
 - batch size:
 - momentum:
-- weight decay: 
+- weight decay:
   - between 1e-4 and 1e-2 ...
-- learing rate: 
+- learing rate:
   - 1e-2 causes instability
   - betqween 1e-4 and 1e-3 ...
 
@@ -60,12 +60,51 @@ Based on the results:
 
 ### Step 2 - Large batch optimizer
 
-#### AdamW
+#### How does the code works?
 
-#### SGDM
+#### 1. AdamW
 
-#### LAMB
+#### 2. SGDM
 
-#### LARS
+#### 3. **LARS** (Layerwise Adaptive Rate Scaling)
+
+- **Adaptive Learning Rate Mechanism**: LARS dynamically scales the learning rate based on the norm of weights and gradients from different layers.
+- **Operation**:  
+  The update rule in LARS can be expressed as:
+
+  ```python
+  x_t+1 = x_t - ηt * (g_t / ||g_t||) * φ(||x_t||)
+  ```
+
+  Where:
+
+  - `x_t` is the parameter.
+  - `g_t` is the gradient.
+  - `ηt` is the adaptive learning rate.
+  - `φ(||x_t||)` is a scaling function based on the norm of the parameters.
+
+  Essentially, LARS adjusts the learning rate based on the norm of the parameters and gradients, eliminating the need for traditional schedulers.
+
+---
+
+#### 4. **LAMB** (Layer-wise Adaptive Moments Based Optimizer)
+
+- **Adaptive Learning Rate Mechanism**: LAMB dynamically adjusts the learning rate for each layer. It uses exponential estimates of the mean and variance of gradients to scale the learning rate.
+- **Operation**:  
+  The adaptive learning rate in LAMB is calculated as:
+
+  ```python
+  x_t+1 = x_t - ηt * m_t / (sqrt(v_t) + ε)
+  ```
+
+  Where:
+
+  - `m_t` and `v_t` are exponential estimates of mean and variance of gradients.
+  - `ηt` is the adaptive learning rate.
+  - `ε` is a regularization term to avoid division by zero.
+
+  Like LARS, LAMB does not rely on conventional schedulers but instead dynamically adjusts the learning rate for each parameter.
+
+---
 
 ### Step 3 - Switch to Local Methods
