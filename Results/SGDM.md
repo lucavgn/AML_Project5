@@ -841,6 +841,7 @@ Epoch 150/150, Loss: 1.6748, Train Acc: 53.38%, Val Acc: 50.29%, Test Acc: 49.92
 
 ## Results
 - Uses double drop out of 0.5
+  
 | Epochs | batch_size | momentum | weight_decay | learning_rate |
 |---|---|---|---|---|
 |150 | 64 | 0.9 | 5e-4 | 0.01 |
