@@ -126,3 +126,7 @@
     - Validation Accuracy: 52.20%
     - Test Accuracy: 53.65%
     - Loss: 1.5558
+- Analysis:- 
+    - So far this is the best parameter.
+    - Adding droupout of 0.3 helped model to not overfit and also to get lower loss.
+    - Lower batch size and moderate weight decay balanced regularization and training capacity.
