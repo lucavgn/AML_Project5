@@ -1,6 +1,7 @@
 # RESULTS
 
 - Parameters
+  
 | Epochs | batch_size | momentum | weight_decay | learning_rate |
 |---|---|---|---|---|
 |150 | 128 | 0.9 | 1e-4 | 0.1 |
