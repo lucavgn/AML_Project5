@@ -109,3 +109,20 @@
     - Validation Accuracy: 48.25%
     - Test Accuracy: 49.47%
     - Loss: 1.9563
+
+
+## 7
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+|---|---|---|---|---|
+|150 | 64 | 0.9 | 5e-4 | 0.01 |
+
+- Dropout:- Just double dropout on last layers Dropout(0.3)
+
+- Results:-
+    - Train Accuracy: 56.13%
+    - Validation Accuracy: 52.20%
+    - Test Accuracy: 53.65%
+    - Loss: 1.5558
