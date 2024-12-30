@@ -165,3 +165,22 @@
     - Loss: 2.0468
  
 - Increase in momemtume reduced the accuracy and increased loss
+
+
+## 10
+
+- Parametrs
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout |
+|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 1e-3 | 0.01 |0.3|
+
+- double dropout of 0.3
+
+- Results:-
+    - Train Accuracy: 53.86%
+    - Validation Accuracy: 51.03%
+    - Test Accuracy: 52.00% 
+    - Loss: 1.6578
+ 
+- Increase in momemtume reduced the accuracy and increased loss  
