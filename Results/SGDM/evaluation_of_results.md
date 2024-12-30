@@ -152,7 +152,7 @@
 
 - Parametrs
 
-  | Epochs | batch_size | momentum | weight_decay | learning_rate |dropout|
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout |
 |---|---|---|---|---|---|
 |150 | 128 | 0.99 | 5e-4 | 0.01 |0.3|
 
