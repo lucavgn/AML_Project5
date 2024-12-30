@@ -1,5 +1,5 @@
 - From paper 18 (Large_Batch_Optimization_for_Learning_Training) there were two suggested way of tuning the learning rate for thr large minibatches.
-- One way is by oder square root of the minibatch size.
+- One way is by order square root of the minibatch size.
     - new_learning_rate = learning_rate * (largerbatch_size / base_batch_size)**2
 - Second way is linear scaling of the learning rate with minibatch size. Which is simply multiple the learning rate by k, where k is size multipled to the base_batch.
     - new_learning_rate = learning_rate * (largerbatch_size / base_batch_size)
@@ -242,4 +242,16 @@ Epoch 148/150, Loss: 1.5920, Train Acc: 55.32%, Val Acc: 52.13%, Test Acc: 51.99
 Epoch 149/150, Loss: 1.5852, Train Acc: 55.46%, Val Acc: 51.76%, Test Acc: 52.51%
 Checkpoint saved at epoch 150: ./checkpoint_epoch_150.pth
 Epoch 150/150, Loss: 1.5836, Train Acc: 55.53%, Val Acc: 51.62%, Test Acc: 52.16%
+
+## Plots
+
+![image](https://github.com/user-attachments/assets/d47716b8-4806-45fa-b595-05a8869eba73)
+![image](https://github.com/user-attachments/assets/9f47957c-5f63-4e84-8234-3f214cdd4fca)
+![image](https://github.com/user-attachments/assets/d7c49fd7-9810-4c89-9717-997feffad233)
+![image](https://github.com/user-attachments/assets/9604e73b-ac41-465c-846a-ec29a86476b4)
+![image](https://github.com/user-attachments/assets/c9097ca8-eddc-4bc2-8394-4a9e1d0742d9)
+![image](https://github.com/user-attachments/assets/5978fb31-46f9-433d-bbd9-49b19ae3ab02)
+
+
+
 
