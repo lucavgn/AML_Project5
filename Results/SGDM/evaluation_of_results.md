@@ -130,3 +130,20 @@
     - So far this is the best parameter.
     - Adding droupout of 0.3 helped model to not overfit and also to get lower loss.
     - Lower batch size and moderate weight decay balanced regularization and training capacity.
+    - 
+
+## 8
+
+- Parameters
+
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+|---|---|---|---|---|
+|150 | 32 | 0.9 | 5e-4 | 0.01 |
+
+- Dropout:- double dropout on last layer(0.3)
+
+- Results:-
+    - Train Accuracy: 56.84%
+    - Validation Accuracy: 52.25%
+    - Test Accuracy: 52.62% 
+    - Loss: 1.5547 
