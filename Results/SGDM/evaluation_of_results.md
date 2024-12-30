@@ -146,4 +146,22 @@
     - Train Accuracy: 56.84%
     - Validation Accuracy: 52.25%
     - Test Accuracy: 52.62% 
-    - Loss: 1.5547 
+    - Loss: 1.5547
+ 
+## 9
+
+- Parametrs
+
+  | Epochs | batch_size | momentum | weight_decay | learning_rate |dropout|
+|---|---|---|---|---|---|
+|150 | 128 | 0.99 | 5e-4 | 0.01 |0.3|
+
+- double dropout of 0.3
+
+- Results:-
+    - Train Accuracy: 45.12%
+    - Validation Accuracy: 45.83%
+    - Test Accuracy: 45.78% 
+    - Loss: 2.0468
+ 
+- Increase in momemtume reduced the accuracy and increased loss
