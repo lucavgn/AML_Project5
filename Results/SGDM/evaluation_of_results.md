@@ -4,9 +4,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 1e-4 | 0.1 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 1e-4 | 0.1 |-|-|
 
 - Dropout:- Not applied
 - Results:-
@@ -22,9 +22,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 1e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 1e-4 | 0.01 |-|0.5|
 
 - Dropout:- Just single dropout on last layer Dropout(0.5)
 
@@ -41,9 +41,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 64 | 0.9 | 1e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 1e-4 | 0.01 |-|0.3|
 
 - Dropout:- Just single dropout on last layer Dropout(0.3)
 
@@ -60,9 +60,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 1e-3 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 1e-3 | 0.01 |0.3|0.3|
 
 - Dropout:- Just double dropout on last layers Dropout(0.3)
 
@@ -80,9 +80,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 1e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 1e-4 | 0.01 | 0.3|0.3|
 
 - Dropout:- Just double dropout on last layers Dropout(0.3)
 
@@ -98,9 +98,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 64 | 0.9 | 5e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 5e-4 | 0.01 |0.5|0.5|
 
 - Dropout:- Just double dropout on last layers Dropout(0.5)
 
@@ -115,9 +115,9 @@
 
 - Parameters
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 64 | 0.9 | 5e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 5e-4 | 0.01 |0.3|0.3|
 
 - Dropout:- Just double dropout on last layers Dropout(0.3)
 
@@ -136,9 +136,9 @@
 
 - Parameters
 
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 32 | 0.9 | 5e-4 | 0.01 |
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 32 | 0.9 | 5e-4 | 0.01 |0.3|0.3|
 
 - Dropout:- double dropout on last layer(0.3)
 
@@ -152,9 +152,9 @@
 
 - Parametrs
 
-| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout |
-|---|---|---|---|---|---|
-|150 | 128 | 0.99 | 5e-4 | 0.01 |0.3|
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 128 | 0.99 | 5e-4 | 0.01 |0.3|0.3|
 
 - double dropout of 0.3
 
@@ -171,9 +171,9 @@
 
 - Parametrs
 
-| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout |
-|---|---|---|---|---|---|
-|150 | 64 | 0.9 | 1e-3 | 0.01 |0.3|
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 1e-3 | 0.01 |0.3|0.3|
 
 - double dropout of 0.3
 
@@ -183,4 +183,23 @@
     - Test Accuracy: 52.00% 
     - Loss: 1.6578
  
-- Increase in momemtume reduced the accuracy and increased loss  
+- Increase in momemtume reduced the accuracy and increased loss
+
+
+## 11
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 32 | 0.9 | 1e-3 | 0.01 |0.3|0.3|
+
+- Dropout:- Double of 0.2
+- Results:-
+    - Train Accuracy: 54.23%
+    - Validation Accuracy: 52.25%
+    - Test Accuracy: 52.53%
+    - Loss: 1.6506
+- Analysis:- 
+    - Reduction of batch size has no huge effect on the results.
+    
