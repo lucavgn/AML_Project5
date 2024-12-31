@@ -202,4 +202,57 @@
     - Loss: 1.6506
 - Analysis:- 
     - Reduction of batch size has no huge effect on the results.
+    - 
+
+
+## 12
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 32 | 0.9 | 4e-4 | 0.01 |0.3|0.3|
+
+- Dropout:- two droupout of 0.3
+- Results:-
+    - Train Accuracy: 53.70%
+    - Validation Accuracy: 53.77%
+    - Test Accuracy: 54.21%
+    - Loss: 1.6952
+- Analysis:- 
+    - for this output i tried adding the batch normalization to the lenet5 architecture
+    - super(LeNet5, self).__init__()
+        self.conv1 = nn.Conv2d(3, 64, 5)
+      
+        self.bn1 = nn.BatchNorm2d(64)  # Batch Normalization after conv1
+      
+        self.relu1 = nn.ReLU()
+      
+        self.pool1 = nn.MaxPool2d(2, 2)
+        
+        self.conv2 = nn.Conv2d(64, 64, 5)
+      
+        self.bn2 = nn.BatchNorm2d(64)  # Batch Normalization after conv2
+      
+        self.relu2 = nn.ReLU()
+      
+        self.pool2 = nn.MaxPool2d(2, 2)
+        
+        self.fc1 = nn.Linear(64 * 5 * 5, 384)
+      
+        self.bn3 = nn.BatchNorm1d(384)  # Batch Normalization for fully connected layers
+      
+        self.relu3 = nn.ReLU()
+      
+        self.drop1 = nn.Dropout(p=0.3)
+        
+        self.fc2 = nn.Linear(384, 192)
+      
+        self.bn4 = nn.BatchNorm1d(192)  # Batch Normalization for fully connected layers
+      
+        self.relu4 = nn.ReLU()
+      
+        self.drop2 = nn.Dropout(p=0.3)
+        
+        self.fc3 = nn.Linear(192, 100)
     
