@@ -256,3 +256,34 @@
         
         self.fc3 = nn.Linear(192, 100)
     
+## 13
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate | dropout1 | dropout2|
+|---|---|---|---|---|---|---|
+|150 | 32 | 0.9 | 4e-4 | 0.01 | 0.3|0.3|
+
+- Dropout:- Just double dropout on last layers Dropout(0.3)
+
+- Results:-
+    - Train Accuracy: 54.86%
+    - Validation Accuracy: 53.30%
+    - Test Accuracy: 54.14%
+    - Loss: 1.6214
+- super(LeNet5, self).__init__()
+  
+        self.conv1 = nn.Conv2d(3, 64, 5)
+  
+        self.bn1 = nn.BatchNorm2d(64)  # Batch Normalization after conv1
+  
+        self.relu1 = nn.ReLU()
+  
+        self.pool1 = nn.MaxPool2d(2, 2)
+
+        self.conv2 = nn.Conv2d(64, 64, 5)
+  
+        self.bn2 = nn.BatchNorm2d(64)  # Batch Normalization after conv2
+
+  - used just batch normalization of covolution layer and not on fully connected
+  - 
