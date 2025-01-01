@@ -222,6 +222,7 @@
 - Analysis:- 
     - for this output i tried adding the batch normalization to the lenet5 architecture
     - super(LeNet5, self).__init__()
+      
         self.conv1 = nn.Conv2d(3, 64, 5)
       
         self.bn1 = nn.BatchNorm2d(64)  # Batch Normalization after conv1
