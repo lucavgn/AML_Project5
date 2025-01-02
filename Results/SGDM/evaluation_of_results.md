@@ -357,7 +357,7 @@
 
 | Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
 |---|---|---|---|---|---|
-|![image](https://github.com/user-attachments/assets/cf8356c2-6e84-442f-83b2-a44869a32b8b) |![image](https://github.com/user-attachments/assets/4b69f15f-a68f-4c5c-83c3-ba51afc089d0) | ![image](https://github.com/user-attachments/assets/5a933c9a-7531-4b08-a692-5261dfd913e3) | ![image](https://github.com/user-attachments/assets/d675e9bd-5a9c-4531-8267-4f61cd3d021e) | ![image](https://github.com/user-attachments/assets/0070e1b2-e829-4b88-9d9c-c3cca7a3bff4) |![image](https://github.com/user-attachments/assets/747ecd1d-1232-482e-a431-75729bde0512)|
+|![image](https://github.com/user-attachments/assets/cf8356c2-6e84-442f-83b2-a44869a32b8b) |![image](https://github.com/user-attachments/assets/4b69f15f-a68f-4c5c-83c3-ba51afc089d0) | ![image](https://github.com/user-attachments/assets/7f21ac1d-54e7-4eac-8b73-854d9f5c5d05) | ![image](https://github.com/user-attachments/assets/17576c4d-0351-4168-a482-27a6adbdb919) | ![image](https://github.com/user-attachments/assets/be759014-8750-4385-aafd-9599b4e52d44) |![image](https://github.com/user-attachments/assets/a3107a08-55e3-42b4-9c49-05b17f1b174a)|
 
 
 
