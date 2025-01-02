@@ -332,12 +332,17 @@
 
 ### Plots
 
-![image](https://github.com/user-attachments/assets/0a1c597d-9384-4e12-917d-f90a09dc5767)
-![image](https://github.com/user-attachments/assets/ecbd15a1-f6ef-40af-89dc-7c20ed06ea22)
-![image](https://github.com/user-attachments/assets/4b9f7171-2a8b-4f6d-9947-3a63aa67bafa)
-![image](https://github.com/user-attachments/assets/9b1a9a46-9e2e-4770-b1b9-5af5dec3c552)
-![image](https://github.com/user-attachments/assets/cbc6d7f5-4345-4766-810b-fe808f11f946)
-![image](https://github.com/user-attachments/assets/4faa441e-110a-4c8e-8181-15c14143de37)
+
+| Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
+|---|---|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/0a1c597d-9384-4e12-917d-f90a09dc5767) | ![image](https://github.com/user-attachments/assets/ecbd15a1-f6ef-40af-89dc-7c20ed06ea22) | ![image](https://github.com/user-attachments/assets/4b9f7171-2a8b-4f6d-9947-3a63aa67bafa) | ![image](https://github.com/user-attachments/assets/9b1a9a46-9e2e-4770-b1b9-5af5dec3c552) | ![image](https://github.com/user-attachments/assets/cbc6d7f5-4345-4766-810b-fe808f11f946) |![image](https://github.com/user-attachments/assets/4faa441e-110a-4c8e-8181-15c14143de37) |
+
+
+
+
+
+
+
 
 
 
