@@ -360,6 +360,22 @@
 |![image](https://github.com/user-attachments/assets/cf8356c2-6e84-442f-83b2-a44869a32b8b) |![image](https://github.com/user-attachments/assets/4b69f15f-a68f-4c5c-83c3-ba51afc089d0) | ![image](https://github.com/user-attachments/assets/7f21ac1d-54e7-4eac-8b73-854d9f5c5d05) | ![image](https://github.com/user-attachments/assets/17576c4d-0351-4168-a482-27a6adbdb919) | ![image](https://github.com/user-attachments/assets/be759014-8750-4385-aafd-9599b4e52d44) |![image](https://github.com/user-attachments/assets/a3107a08-55e3-42b4-9c49-05b17f1b174a)|
 
 
+## 5
+
+### Parameters and Result
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |Loss | Train_Acc | Val_Acc | Test_Acc|
+|---|---|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 4e-4 | 0.01 |1.4508|59.47%|53.48%|53.42%|
+
+### Plots
+
+
+| Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
+|---|---|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/b50dcd22-f57f-4607-9cae-dd475ea73d32) |![image](https://github.com/user-attachments/assets/0200f208-5e75-4a57-8fcd-956b1fcd67f6) |![image](https://github.com/user-attachments/assets/b4e8dc38-d3be-4700-a37a-408d1c4987d8) | ![image](https://github.com/user-attachments/assets/7891bc4e-f055-4cc3-803f-474f516e96b2)| ![image](https://github.com/user-attachments/assets/584164f4-98aa-4be0-866b-b4a14ea1c983) |![image](https://github.com/user-attachments/assets/b502ccfd-e157-4b2d-9216-39a220a07c85)|
+
+
 
 
 
