@@ -288,3 +288,33 @@
 
   - used just batch normalization of covolution layer and not on fully connected
   - 
+
+  # RESULTS WITHOUT DROPOUT
+
+## 1
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+|---|---|---|---|---|
+|150 | 128 | 0.9 | 5e-4 | 0.01 |
+
+-Results:- Loss: 1.6078, 
+           Train Acc: 56.08%, 
+           Val Acc: 51.26%, 
+           Test Acc: 51.74%
+
+### Plots
+![image](https://github.com/user-attachments/assets/e9eda97f-d351-4ebc-8c76-9ed1563df575)
+![image](https://github.com/user-attachments/assets/e52a88f7-df0a-4b94-a3ae-894c994cf282)
+![image](https://github.com/user-attachments/assets/4490de59-a4c0-4c0b-88f3-f1a10c31f1f9)
+![image](https://github.com/user-attachments/assets/69f721c6-fe2c-49e8-bdf0-9627335e4f09)
+![image](https://github.com/user-attachments/assets/89967cf8-c23a-4e1d-a2e4-5b6724e4e3b4)
+![image](https://github.com/user-attachments/assets/32611472-3a54-4310-80ea-8a1a090846d1)
+
+
+
+
+
+
+           
