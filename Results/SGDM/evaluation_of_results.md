@@ -305,12 +305,16 @@
            Test Acc: 51.74%
 
 ### Plots
-![image](https://github.com/user-attachments/assets/e9eda97f-d351-4ebc-8c76-9ed1563df575)
-![image](https://github.com/user-attachments/assets/e52a88f7-df0a-4b94-a3ae-894c994cf282)
-![image](https://github.com/user-attachments/assets/4490de59-a4c0-4c0b-88f3-f1a10c31f1f9)
-![image](https://github.com/user-attachments/assets/69f721c6-fe2c-49e8-bdf0-9627335e4f09)
-![image](https://github.com/user-attachments/assets/89967cf8-c23a-4e1d-a2e4-5b6724e4e3b4)
-![image](https://github.com/user-attachments/assets/32611472-3a54-4310-80ea-8a1a090846d1)
+
+| Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
+|---|---|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/e9eda97f-d351-4ebc-8c76-9ed1563df575) | ![image](https://github.com/user-attachments/assets/e52a88f7-df0a-4b94-a3ae-894c994cf282) | ![image](https://github.com/user-attachments/assets/4490de59-a4c0-4c0b-88f3-f1a10c31f1f9) | ![image](https://github.com/user-attachments/assets/69f721c6-fe2c-49e8-bdf0-9627335e4f09) | ![image](https://github.com/user-attachments/assets/89967cf8-c23a-4e1d-a2e4-5b6724e4e3b4) |![image](https://github.com/user-attachments/assets/32611472-3a54-4310-80ea-8a1a090846d1) |
+
+
+
+
+
+
 
 
 ## 2
