@@ -289,7 +289,7 @@
   - used just batch normalization of covolution layer and not on fully connected
   - 
 
-  # RESULTS WITHOUT DROPOUT
+# RESULTS WITHOUT ANY EXTRA MODIFICATION IN THE MODEL ARCHITECTURE
 
 ## 1
 
@@ -328,6 +328,26 @@
 |![image](https://github.com/user-attachments/assets/0a1c597d-9384-4e12-917d-f90a09dc5767) | ![image](https://github.com/user-attachments/assets/ecbd15a1-f6ef-40af-89dc-7c20ed06ea22) | ![image](https://github.com/user-attachments/assets/4b9f7171-2a8b-4f6d-9947-3a63aa67bafa) | ![image](https://github.com/user-attachments/assets/9b1a9a46-9e2e-4770-b1b9-5af5dec3c552) | ![image](https://github.com/user-attachments/assets/cbc6d7f5-4345-4766-810b-fe808f11f946) |![image](https://github.com/user-attachments/assets/4faa441e-110a-4c8e-8181-15c14143de37) |
 
 
+## 3
+
+### Parameters and Result
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |Loss | Train_Acc | Val_Acc | Test_Acc|
+|---|---|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 5e-4 | 0.1 |1.6514|54.84%|53.22%|53.19%|
+
+### Plots
+
+
+| Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
+|---|---|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/04f121e9-bfdd-4915-b30c-cf096320967a)
+ |![image](https://github.com/user-attachments/assets/54bfed7e-0811-4831-88f7-57f1bae726b5)
+ | ![image](https://github.com/user-attachments/assets/99c93c17-5767-4c77-8db5-dc7ede1197cf)
+ | ![image](https://github.com/user-attachments/assets/b829cbf3-e97d-49cd-b504-101658044c70)
+ | ![image](https://github.com/user-attachments/assets/efeddf16-f3f5-42cf-bc51-aa6709ade84b)
+ |![image](https://github.com/user-attachments/assets/9df11013-40db-42dd-91bf-b695f5887dc1)
+ |
 
 
 
