@@ -293,16 +293,11 @@
 
 ## 1
 
-- Parameters
+### Parameters and Results
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 5e-4 | 0.01 |
-
--Results:- Loss: 1.6078, 
-           Train Acc: 56.08%, 
-           Val Acc: 51.26%, 
-           Test Acc: 51.74%
+| Epochs | batch_size | momentum | weight_decay | learning_rate | Loss | Train_Acc | Val_Acc | Test_Acc|
+|---|---|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 5e-4 | 0.01 | 1.6078|56.08%|51.26%|51.74%|
 
 ### Plots
 
@@ -319,16 +314,11 @@
 
 ## 2
 
-- Parameters
+### Parameters and Result
   
-| Epochs | batch_size | momentum | weight_decay | learning_rate |
-|---|---|---|---|---|
-|150 | 128 | 0.9 | 5e-4 | 0.001 |
-
--Results:- Loss: 3.0656, 
-           Train Acc: 25.07%, 
-           Val Acc: 28.58%, 
-           Test Acc: 28.58%
+| Epochs | batch_size | momentum | weight_decay | learning_rate |Loss | Train_Acc | Val_Acc | Test_Acc|
+|---|---|---|---|---|---|---|---|---|
+|150 | 128 | 0.9 | 5e-4 | 0.001 |3.0656|25.07%|28.58%|28.58%|
 
 ### Plots
 
