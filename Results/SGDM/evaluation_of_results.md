@@ -313,6 +313,33 @@
 ![image](https://github.com/user-attachments/assets/32611472-3a54-4310-80ea-8a1a090846d1)
 
 
+## 2
+
+- Parameters
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |
+|---|---|---|---|---|
+|150 | 128 | 0.9 | 5e-4 | 0.001 |
+
+-Results:- Loss: 3.0656, 
+           Train Acc: 25.07%, 
+           Val Acc: 28.58%, 
+           Test Acc: 28.58%
+
+### Plots
+
+![image](https://github.com/user-attachments/assets/0a1c597d-9384-4e12-917d-f90a09dc5767)
+![image](https://github.com/user-attachments/assets/ecbd15a1-f6ef-40af-89dc-7c20ed06ea22)
+![image](https://github.com/user-attachments/assets/4b9f7171-2a8b-4f6d-9947-3a63aa67bafa)
+![image](https://github.com/user-attachments/assets/9b1a9a46-9e2e-4770-b1b9-5af5dec3c552)
+![image](https://github.com/user-attachments/assets/cbc6d7f5-4345-4766-810b-fe808f11f946)
+![image](https://github.com/user-attachments/assets/4faa441e-110a-4c8e-8181-15c14143de37)
+
+
+
+
+
+
 
 
 
