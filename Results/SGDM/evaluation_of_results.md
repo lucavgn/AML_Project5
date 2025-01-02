@@ -376,7 +376,35 @@
 |![image](https://github.com/user-attachments/assets/b50dcd22-f57f-4607-9cae-dd475ea73d32) |![image](https://github.com/user-attachments/assets/0200f208-5e75-4a57-8fcd-956b1fcd67f6) |![image](https://github.com/user-attachments/assets/b4e8dc38-d3be-4700-a37a-408d1c4987d8) | ![image](https://github.com/user-attachments/assets/7891bc4e-f055-4cc3-803f-474f516e96b2)| ![image](https://github.com/user-attachments/assets/584164f4-98aa-4be0-866b-b4a14ea1c983) |![image](https://github.com/user-attachments/assets/b502ccfd-e157-4b2d-9216-39a220a07c85)|
 
 
+## 6
 
+### Parameters and Result
+
+### Transform
+
+train_transform = transforms.Compose([
+    transforms.RandomHorizontalFlip(0.5),
+    transforms.RandomCrop(32,4),
+    transforms.ColorJitter(
+    brightness=0.2,
+    contrast=0.2,
+    saturation=0.2,
+    hue=0.1
+    ),
+    transforms.ToTensor(),  # Converti in tensore
+    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))  # Normalizzazione
+])
+  
+| Epochs | batch_size | momentum | weight_decay | learning_rate |Loss | Train_Acc | Val_Acc | Test_Acc|
+|---|---|---|---|---|---|---|---|---|
+|150 | 64 | 0.9 | 4e-4 | 0.01 |0.6050|81.75%|53.13%|54.62%|
+
+### Plots
+
+
+| Training_Loss | Training_Accuracy | Validation_Loss | Validation_Accuracy | Test_Loss | Test_Accuracy|
+|---|---|---|---|---|---|
+|![image](https://github.com/user-attachments/assets/f8771f66-50e8-46ad-8f0e-71ff4fd8671e)|![image](https://github.com/user-attachments/assets/1ac5fac8-6f24-4022-b455-7d838e21e967) |![image](https://github.com/user-attachments/assets/5c85c9c9-dfcb-48e6-89e5-e2cdd214a907)|![image](https://github.com/user-attachments/assets/2167a166-4a44-4975-8d52-b46b7b53d501)| ![image](https://github.com/user-attachments/assets/233234c9-0441-4dd0-a38d-3ceee92c9d60)|![image](https://github.com/user-attachments/assets/2f478359-6e42-46d0-bc4e-b8bdd7facdfb)|
 
 
 
