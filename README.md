@@ -130,50 +130,89 @@ Results:
 
 ### Step 2 - Large batch optimizer
 
-#### How does the code works?
-
 #### 1. AdamW
 
 #### 2. SGDM
 
+Here’s an updated and accurate description of the LARS algorithm based on the provided image:
+
+---
+
 #### 3. **LARS** (Layerwise Adaptive Rate Scaling)
 
-- **Adaptive Learning Rate Mechanism**: LARS dynamically scales the learning rate based on the norm of weights and gradients from different layers.
+- **Adaptive Learning Rate Mechanism**:  
+  LARS dynamically adjusts the learning rate for each layer by scaling it according to the ratio of the norm of the weights and the norm of the gradients, ensuring consistent scaling across layers.
+
 - **Operation**:  
-  The update rule in LARS can be expressed as:
+  The algorithm consists of the following steps:
 
-  ```python
-  x_t+1 = x_t - ηt * (g_t / ||g_t||) * φ(||x_t||)
-  ```
+  1. **Gradient Computation**:  
+     Compute the gradient \( g*t \) as the mean over a batch \( S_t \):  
+     \[
+     g_t = \frac{1}{|S_t|} \sum*{s_t \in S_t} \nabla \ell(x_t, s_t)
+     \]
 
-  Where:
+  2. **Momentum Update**:  
+     Update the momentum term \( m*t \):  
+     \[
+     m_t = \beta_1 m*{t-1} + (1 - \beta_1) (g_t + \lambda x_t)
+     \]
 
-  - `x_t` is the parameter.
-  - `g_t` is the gradient.
-  - `ηt` is the adaptive learning rate.
-  - `φ(||x_t||)` is a scaling function based on the norm of the parameters.
+  - \( \lambda \): A weight decay term for regularization.
 
-  Essentially, LARS adjusts the learning rate based on the norm of the parameters and gradients, eliminating the need for traditional schedulers.
+  3. **Normalized Update**:  
+     Update the parameters using a normalized update rule:  
+     \[
+     x\_{t+1}^{(i)} = x_t^{(i)} - \eta_t \cdot \phi(\|x_t^{(i)}\|) \cdot \frac{m_t^{(i)}}{\|m_t^{(i)}\|}
+     \]
+
+  - \( \eta_t \): The global learning rate.
+  - \(\phi(\|x_t\|)\) is a scaling function based on the norm of the parameters.
+
+- **Advantages**:  
+  LARS ensures that each layer's updates are scaled appropriately, improving optimization stability, particularly in large-scale models. By scaling updates based on the norm of parameters and gradients, it eliminates the reliance on traditional learning rate schedulers and ensures effective training across varying parameter scales.
 
 ---
 
 #### 4. **LAMB** (Layer-wise Adaptive Moments Based Optimizer)
 
-- **Adaptive Learning Rate Mechanism**: LAMB dynamically adjusts the learning rate for each layer. It uses exponential estimates of the mean and variance of gradients to scale the learning rate.
-- **Operation**:  
-  The adaptive learning rate in LAMB is calculated as:
+- **Adaptive Learning Rate Mechanism**: LAMB dynamically adjusts the update step's scale for each layer based on the norms of the weights and gradients. It also utilizes exponential moving averages of the mean (\(m_t\)) and variance (\(v_t\)) of the gradients.
 
-  ```python
-  x_t+1 = x_t - ηt * m_t / (sqrt(v_t) + ε)
-  ```
+- **Operation**:  
+  The algorithm follows these steps:
+
+  1. Compute the gradient \(g*t\) as the mean over a batch \(S_t\):  
+     \[
+     g_t = \frac{1}{|S_t|} \sum*{s_t \in S_t} \nabla \ell(x_t, s_t)
+     \]
+
+  2. Update the moments:  
+     \[
+     m*t = \beta_1 m*{t-1} + (1 - \beta*1) g_t, \quad v_t = \beta_2 v*{t-1} + (1 - \beta_2) g_t^2
+     \]
+     And apply bias correction:  
+     \[
+     m_t = \frac{m_t}{1 - \beta_1^t}, \quad v_t = \frac{v_t}{1 - \beta_2^t}
+     \]
+
+  3. Compute \(r_t\):  
+     \[
+     r_t = \frac{m_t}{\sqrt{v_t} + \epsilon}
+     \]
+
+  4. Calculate the normalized update step:  
+     \[
+     x\_{t+1} = x_t - \eta_t \cdot \phi(\|x_t\|) \cdot \frac{r_t + \lambda x_t}{\|r_t + \lambda x_t\|}
+     \]
 
   Where:
 
-  - `m_t` and `v_t` are exponential estimates of mean and variance of gradients.
-  - `ηt` is the adaptive learning rate.
-  - `ε` is a regularization term to avoid division by zero.
+  - \(\phi(\|x_t\|)\) is a scaling function that depends on the \(L2\) norm of the weights \(x_t\).
+  - \(\eta_t\) is the global learning rate.
+  - \(\lambda\) is an additional regularization term.
 
-  Like LARS, LAMB does not rely on conventional schedulers but instead dynamically adjusts the learning rate for each parameter.
+- **Advantages**:  
+  Similar to LARS, LAMB does not rely exclusively on conventional schedulers but dynamically adjusts the update step's scale for each parameter, improving convergence, especially in large-scale model.
 
 ---
 
