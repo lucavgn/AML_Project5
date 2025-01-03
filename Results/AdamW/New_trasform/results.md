@@ -77,5 +77,5 @@ Results:
 
 | Test #     | Epochs | batch_size | beta | weight_decay | learning_rate | results         |
 | ---------- | ------ | ---------- | ---- | ------------ | ------------- | --------------- |
-| A1 (AdamW) | 150    | 64         | 0.9  | 5e-4         | 5e-4          | Val Acc: 45.94% |
+| A1 (AdamW) | 150    | 64         | 0.9  | 4e-4         | 5e-4          | Val Acc: 45.94% |
 | A1 (SGDM)  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 53.38% |

@@ -117,7 +117,7 @@ train_transform = transforms.Compose([
   transforms.RandomPerspective(distortion_scale=0.2, p=0.5),
   transforms.ColorJitter(brightness=0.3, contrast=0.3, saturation=0.3, hue=0.2),
   transforms.ToTensor(),
-  transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
+  transforms.Normalize(mean, std)
 ])
 ```
 
@@ -125,7 +125,7 @@ Results:
 
 | Test #     | Epochs | batch_size | beta | weight_decay | learning_rate | results         |
 | ---------- | ------ | ---------- | ---- | ------------ | ------------- | --------------- |
-| A1 (AdamW) | 150    | 64         | 0.9  | 5e-4         | 5e-4          | Val Acc: 45.94% |
+| A1 (AdamW) | 150    | 64         | 0.9  | 4e-4         | 5e-4          | Val Acc: 45.94% |
 | A1 (SGDM)  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 53.38% |
 
 ### Step 2 - Large batch optimizer
