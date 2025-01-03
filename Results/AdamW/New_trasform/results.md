@@ -24,12 +24,10 @@ To use the same data augmentation for both AdamW and SGDM we had to find a compr
 - SGDM requires a more complex data augmentation technique
 - AdamW requires a less complex one
 
-These are the results of trying to invert the data augmentation technique for the two optimizer:
+If we invert the data augmentation technique for the two optimizer:
 
-| Test #     | Epochs | batch_size | momentum/beta | weight_decay | learning_rate | results           |
-| ---------- | ------ | ---------- | ------------- | ------------ | ------------- | ----------------- |
-| V7 (AdamW) | 150    | 64         | 0.9           | 4e-4         | 1e-3          | Val Acc: 42.83%   |
-| V8 (SGDM)  | 150    | 64         | 0.9           | 4e-4         | 1e-2          | The model overfit |
+- SGDM: the model overfit
+- AdamW: the validation accuracy drop down to 42.83%
 
 To get the best results for AdamW we have used:
 
