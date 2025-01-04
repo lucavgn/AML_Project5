@@ -14,8 +14,10 @@ These tests have been performed with different data augmentation parameters and 
 | S5     | 150    | 128        | 0.9  | 0            | 5e-4          | Val Acc: 48.80% |
 | S6     | 150    | 64         | 0.9  | 4e-4         | 5e-4          | Val Acc: 49.95% |
 | A1     | 150    | 64         | 0.9  | 5e-4         | 5e-4          | Val Acc: 45.94% |
+| S7     | 150    | 64         | 0.9  | 4e-4         | 5e-4          | Val Acc: 47.38% |
+| S8     | 150    | 64         | 0.9  | 1e-2         | 5e-4          | Val Acc: 50%    |
 
-The best result of validation accuracy that we got is S6 test.
+The best result of validation accuracy that we got is S8 test.
 
 ## Compromise between SGDM and AdamW
 
@@ -63,7 +65,7 @@ Starting from the SGDM transforms we got:
 ```python
 train_transform = transforms.Compose([
   transforms.RandomHorizontalFlip(),
-  transforms.RandomRotation(15),
+  # transforms.RandomRotation(15),
   transforms.RandomCrop(32, padding=4),
   # transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
   transforms.RandomPerspective(distortion_scale=0.2, p=0.5),
@@ -77,5 +79,5 @@ Results:
 
 | Test #     | Epochs | batch_size | beta | weight_decay | learning_rate | results         |
 | ---------- | ------ | ---------- | ---- | ------------ | ------------- | --------------- |
-| A1 (AdamW) | 150    | 64         | 0.9  | 4e-4         | 5e-4          | Val Acc: 45.94% |
-| A1 (SGDM)  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 53.38% |
+| S8 (AdamW) | 150    | 64         | 0.9  | 1e-2         | 5e-4          | Val Acc: 50.00% |
+| A3 (SGDM)  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 54.09% |
