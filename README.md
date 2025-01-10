@@ -134,7 +134,34 @@ Results:
 
 #### 1. AdamW
 
+Results:-
+
+|Epochs|bet1|beta2|weight_decay|learning_rate|
+| ---------- | ---- | ----- | -------- | -------|
+|150|0.9|0.999|4e-4|1e-4|
+
+| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
+| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
+| 1 |  128         | 58.52%  | 46.23%         | 47.12%          | 1.5081 |2.1084|2.0783|
+| 2  | 256         | 58.99%  | 46.78%         | 48.30%          | 1.5055 |2.0921|2.0505|
+| 3  |  512       | 58.99%  | 45.63%        | 46.71%         | 1.5763 |2.1282|2.1070|
+| 4  |  1024      | 54.78%  | 44.97%         | 46.27%          | 1.6592 |2.1455|2.1110|
+
+
 #### 2. SGDM
+
+Results:-
+
+|Epochs|momentum|weight_decay|learning_rate|
+| ---------- | ---- | -------- | -------|
+|150|0.9|4e-4|1e-3|
+
+| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
+| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
+| 1 |  128         | 55.73%  | 46.05%         | 46.84%         | 1.6177 |2.1334|2.0874|
+| 2  | 256         | 49.22%  | 43.26%         | 43.75%          | 1.9119 |2.2283|2.1974|
+| 3  |  512       | 41.95%  | 39.30%        | 40.14%         | 2.2275 |2.3726|2.3515|
+| 4  |  1024      | 34.72%  | 33.82%         | 34.53%          | 2.5797 |2.6336|2.6224|
 
 Here’s an updated and accurate description of the LARS algorithm based on the provided image:
 
@@ -173,6 +200,9 @@ Here’s an updated and accurate description of the LARS algorithm based on the 
 
 - **Advantages**:  
   LARS ensures that each layer's updates are scaled appropriately, improving optimization stability, particularly in large-scale models. By scaling updates based on the norm of parameters and gradients, it eliminates the reliance on traditional learning rate schedulers and ensures effective training across varying parameter scales.
+
+
+ 
 
 ---
 
