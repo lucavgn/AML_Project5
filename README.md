@@ -3,7 +3,9 @@
 ## Distributed Learning - Track A
 ---
 
-Title:- Distributed Learning of Deep Neural Networks: Exploring Data-Parallelism Approaches with LocalSGD and Large-Batch Optimization on CIFAR-100
+**Title:-** Distributed Learning of Deep Neural Networks: Exploring Data-Parallelism Approaches with LocalSGD and Large-Batch Optimization on CIFAR-100
+
+**Abstract:-** In this study, we explore distributed learning methodologies for deep neural networks, focusing on data-parallelism approaches. Using the LeNet-5 architecture with the CIFAR-100 dataset, we conducted experiments to evaluate the performance of various optimizers—SGDM, AdamW, LARS, and LAMB. Initially, centralized training was employed to identify optimal hyperparameters for SGDM and AdamW. Subsequently, large-batch training was implemented to assess the scalability and performance of all optimizers, with particular attention to test accuracy retention as batch sizes increased. Finally, we implemented LocalSGD, splitting the dataset into independent subsets and analyzing the impact of varying the number of workers (K) and local steps (J) on training efficiency and accuracy. Our findings provide insights into the trade-offs between centralized and distributed training strategies and highlight the challenges in scaling distributed learning techniques effectively.
 
 ---
 
