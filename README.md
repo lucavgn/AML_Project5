@@ -123,8 +123,8 @@ Results:
 
 | Test #     | Epochs | batch_size | beta | weight_decay | learning_rate | results         |
 | ---------- | ------ | ---------- | ---- | ------------ | ------------- | --------------- |
-| S8 (AdamW) | 150    | 64         | 0.9  | 1e-2         | 5e-4          | Val Acc: 50.00% |
-| A3 (SGDM)  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 54.09% |
+|  AdamW | 150    | 64         | 0.9-0.99  | 1e-1         | 1e-3         | Val Acc: 49.94%, |
+| SGDM  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 56.59% |
 
 ### Step 2 - Large batch optimizer
 
