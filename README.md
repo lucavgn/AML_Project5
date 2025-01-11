@@ -201,6 +201,21 @@ Here’s an updated and accurate description of the LARS algorithm based on the 
 - **Advantages**:  
   LARS ensures that each layer's updates are scaled appropriately, improving optimization stability, particularly in large-scale models. By scaling updates based on the norm of parameters and gradients, it eliminates the reliance on traditional learning rate schedulers and ensures effective training across varying parameter scales.
 
+Results:-
+
+|Epochs|momentum|weight_decay|learning_rate|
+| ---------- | ---- | -------- | -------|
+|150|0.9|4e-4|25e-2|
+
+| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
+| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
+| 1 |  128         | 52.67% | 44.24%         | 44.61%         | 1.7577 |2.2061|2.1759|
+| 2  | 256         | 51.01%  | 43.41%         | 44.36%          | 1.8314 |2.2412|2.1979|
+| 3  |  512       | 48.58%  | 42.30%        | 43.08%         | 1.9288 |2.2684|2.2424|
+| 4  |  1024      | 45.06%  | 41.18%        | 41.85%          | 2.0746 |2.3160|2.2866|
+| 5 |  2048         | 41.80% | 38.69%         | 38.95%         | 2.2459 |2.4264|2.4124|
+| 6  | 4096        | 36.94%  | 35.82%         | 36.29%          | 2.4683 |2.5682|2.5486|
+| 7  |  8192       | 30.66%  | 31.75%       | 30.88%         | 2.7889 |2.7980|2.7941|
 
  
 
@@ -245,6 +260,24 @@ Here’s an updated and accurate description of the LARS algorithm based on the 
 
 - **Advantages**:  
   Similar to LARS, LAMB does not rely exclusively on conventional schedulers but dynamically adjusts the update step's scale for each parameter, improving convergence, especially in large-scale model.
+
+
+Results:-
+
+|Epochs|momentum|weight_decay|learning_rate|
+| ---------- | ---- | -------- | -------|
+|150|0.9|4e-4|5e-4|
+
+| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
+| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
+| 1 |  128         | 51.47% | 44.56%         | 45.68%         | 1.8046 |2.1497|2.1277|
+| 2  | 256         | 52.27%  | 44.06%         | 45.67%          | 1.7792 |2.1487|2.1274|
+| 3  |  512       | 51.58%  | 44.57%        | 45.06%        | 1.7962 |2.1588|2.1378|
+| 4  |  1024      | 50.07% | 43.33%        | 45.09%          | 1.8576 |2.1956|2.1642|
+| 5 |  2048         | 49.83% | 43.71%         | 43.99%         | 1.8806 |2.2107|2.1824|
+| 6  | 4096        | 47.37%  | 42.41%         | 43.29%         | 1.9877 |2.2287|2.1972|
+| 7  |  8192       | 43.02%  | 39.83%       | 40.64%        | 2.1832 |2.3389|2.3018|
+
 
 ---
 
