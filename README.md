@@ -1,6 +1,13 @@
 # ADM_Project5
 
 ## Distributed Learning - Track A
+---
+
+Title:- Distributed Learning of Deep Neural Networks: Exploring Data-Parallelism Approaches with LocalSGD and Large-Batch Optimization on CIFAR-100
+
+---
+
+
 
 ### Step 1 - Centralized training baseline
 
