@@ -1,6 +1,7 @@
 # ADM_Project5
 
 ## Distributed Learning - Track A
+
 ---
 
 **Title:-** Distributed Learning of Deep Neural Networks: Exploring Data-Parallelism Approaches with LocalSGD and Large-Batch Optimization on CIFAR-100
@@ -8,8 +9,6 @@
 **Abstract:-** In this study, we explore distributed learning methodologies for deep neural networks, focusing on data-parallelism approaches. Using the LeNet-5 architecture with the CIFAR-100 dataset, we conducted experiments to evaluate the performance of various optimizers—SGDM, AdamW, LARS, and LAMB. Initially, centralized training was employed to identify optimal hyperparameters for SGDM and AdamW. Subsequently, large-batch training was implemented to assess the scalability and performance of all optimizers, with particular attention to test accuracy retention as batch sizes increased. Finally, we implemented LocalSGD, splitting the dataset into independent subsets and analyzing the impact of varying the number of workers (K) and local steps (J) on training efficiency and accuracy. Our findings provide insights into the trade-offs between centralized and distributed training strategies and highlight the challenges in scaling distributed learning techniques effectively.
 
 ---
-
-
 
 ### Step 1 - Centralized training baseline
 
@@ -130,10 +129,10 @@ train_transform = transforms.Compose([
 
 Results:
 
-| Test #     | Epochs | batch_size | beta | weight_decay | learning_rate | results         |
-| ---------- | ------ | ---------- | ---- | ------------ | ------------- | --------------- |
-|  AdamW | 150    | 64         | 0.9-0.99  | 1e-1         | 1e-3         | Val Acc: 49.94%, |
-| SGDM  | 150    | 64         | 0.9  | 4e-4         | 1e-2          | Val Acc: 56.59% |
+| Test # | Epochs | batch_size | beta     | weight_decay | learning_rate | results          |
+| ------ | ------ | ---------- | -------- | ------------ | ------------- | ---------------- |
+| AdamW  | 150    | 64         | 0.9-0.99 | 1e-1         | 1e-3          | Val Acc: 49.94%, |
+| SGDM   | 150    | 64         | 0.9      | 4e-4         | 1e-2          | Val Acc: 56.59%  |
 
 ### Step 2 - Large batch optimizer
 
@@ -141,32 +140,31 @@ Results:
 
 Results:-
 
-|Epochs|bet1|beta2|weight_decay|learning_rate|
-| ---------- | ---- | ----- | -------- | -------|
-|150|0.9|0.999|4e-4|1e-4|
+| Epochs | bet1 | beta2 | weight_decay | learning_rate |
+| ------ | ---- | ----- | ------------ | ------------- |
+| 150    | 0.9  | 0.999 | 4e-4         | 1e-4          |
 
-| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
-| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
-| 1 |  128         | 58.52%  | 46.23%         | 47.12%          | 1.5081 |2.1084|2.0783|
-| 2  | 256         | 58.99%  | 46.78%         | 48.30%          | 1.5055 |2.0921|2.0505|
-| 3  |  512       | 58.99%  | 45.63%        | 46.71%         | 1.5763 |2.1282|2.1070|
-| 4  |  1024      | 54.78%  | 44.97%         | 46.27%          | 1.6592 |2.1455|2.1110|
-
+| Test # | batch_size | train_acc | val_acc | test_acc | train_loss | val_loss | test_loss |
+| ------ | ---------- | --------- | ------- | -------- | ---------- | -------- | --------- |
+| 1      | 128        | 58.52%    | 46.23%  | 47.12%   | 1.5081     | 2.1084   | 2.0783    |
+| 2      | 256        | 58.99%    | 46.78%  | 48.30%   | 1.5055     | 2.0921   | 2.0505    |
+| 3      | 512        | 58.99%    | 45.63%  | 46.71%   | 1.5763     | 2.1282   | 2.1070    |
+| 4      | 1024       | 54.78%    | 44.97%  | 46.27%   | 1.6592     | 2.1455   | 2.1110    |
 
 #### 2. SGDM
 
 Results:-
 
-|Epochs|momentum|weight_decay|learning_rate|
-| ---------- | ---- | -------- | -------|
-|150|0.9|4e-4|1e-3|
+| Epochs | momentum | weight_decay | learning_rate |
+| ------ | -------- | ------------ | ------------- |
+| 150    | 0.9      | 4e-4         | 1e-3          |
 
-| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
-| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
-| 1 |  128         | 55.73%  | 46.05%         | 46.84%         | 1.6177 |2.1334|2.0874|
-| 2  | 256         | 49.22%  | 43.26%         | 43.75%          | 1.9119 |2.2283|2.1974|
-| 3  |  512       | 41.95%  | 39.30%        | 40.14%         | 2.2275 |2.3726|2.3515|
-| 4  |  1024      | 34.72%  | 33.82%         | 34.53%          | 2.5797 |2.6336|2.6224|
+| Test # | batch_size | train_acc | val_acc | test_acc | train_loss | val_loss | test_loss |
+| ------ | ---------- | --------- | ------- | -------- | ---------- | -------- | --------- |
+| 1      | 128        | 55.73%    | 46.05%  | 46.84%   | 1.6177     | 2.1334   | 2.0874    |
+| 2      | 256        | 49.22%    | 43.26%  | 43.75%   | 1.9119     | 2.2283   | 2.1974    |
+| 3      | 512        | 41.95%    | 39.30%  | 40.14%   | 2.2275     | 2.3726   | 2.3515    |
+| 4      | 1024       | 34.72%    | 33.82%  | 34.53%   | 2.5797     | 2.6336   | 2.6224    |
 
 Here’s an updated and accurate description of the LARS algorithm based on the provided image:
 
@@ -208,21 +206,19 @@ Here’s an updated and accurate description of the LARS algorithm based on the 
 
 Results:-
 
-|Epochs|momentum|weight_decay|learning_rate|
-| ---------- | ---- | -------- | -------|
-|150|0.9|4e-4|25e-2|
+| Epochs | momentum | weight_decay | learning_rate |
+| ------ | -------- | ------------ | ------------- |
+| 150    | 0.9      | 4e-4         | 25e-2         |
 
-| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
-| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
-| 1 |  128         | 52.67% | 44.24%         | 44.61%         | 1.7577 |2.2061|2.1759|
-| 2  | 256         | 51.01%  | 43.41%         | 44.36%          | 1.8314 |2.2412|2.1979|
-| 3  |  512       | 48.58%  | 42.30%        | 43.08%         | 1.9288 |2.2684|2.2424|
-| 4  |  1024      | 45.06%  | 41.18%        | 41.85%          | 2.0746 |2.3160|2.2866|
-| 5 |  2048         | 41.80% | 38.69%         | 38.95%         | 2.2459 |2.4264|2.4124|
-| 6  | 4096        | 36.94%  | 35.82%         | 36.29%          | 2.4683 |2.5682|2.5486|
-| 7  |  8192       | 30.66%  | 31.75%       | 30.88%         | 2.7889 |2.7980|2.7941|
-
- 
+| Test # | batch_size | train_acc | val_acc | test_acc | train_loss | val_loss | test_loss |
+| ------ | ---------- | --------- | ------- | -------- | ---------- | -------- | --------- |
+| 1      | 128        | 52.67%    | 44.24%  | 44.61%   | 1.7577     | 2.2061   | 2.1759    |
+| 2      | 256        | 51.01%    | 43.41%  | 44.36%   | 1.8314     | 2.2412   | 2.1979    |
+| 3      | 512        | 48.58%    | 42.30%  | 43.08%   | 1.9288     | 2.2684   | 2.2424    |
+| 4      | 1024       | 45.06%    | 41.18%  | 41.85%   | 2.0746     | 2.3160   | 2.2866    |
+| 5      | 2048       | 41.80%    | 38.69%  | 38.95%   | 2.2459     | 2.4264   | 2.4124    |
+| 6      | 4096       | 36.94%    | 35.82%  | 36.29%   | 2.4683     | 2.5682   | 2.5486    |
+| 7      | 8192       | 30.66%    | 31.75%  | 30.88%   | 2.7889     | 2.7980   | 2.7941    |
 
 ---
 
@@ -266,23 +262,21 @@ Results:-
 - **Advantages**:  
   Similar to LARS, LAMB does not rely exclusively on conventional schedulers but dynamically adjusts the update step's scale for each parameter, improving convergence, especially in large-scale model.
 
-
 Results:-
 
-|Epochs|momentum|weight_decay|learning_rate|
-| ---------- | ---- | -------- | -------|
-|150|0.9|4e-4|5e-4|
+| Epochs | momentum | weight_decay | learning_rate |
+| ------ | -------- | ------------ | ------------- |
+| 150    | 0.9      | 4e-4         | 5e-4          |
 
-| Test #     | batch_size |  train_acc |val_acc|test_acc|train_loss|val_loss|test_loss|
-| ---------- | ---- | ------ | ------ | ------ | ------ | ------ |------|
-| 1 |  128         | 51.47% | 44.56%         | 45.68%         | 1.8046 |2.1497|2.1277|
-| 2  | 256         | 52.27%  | 44.06%         | 45.67%          | 1.7792 |2.1487|2.1274|
-| 3  |  512       | 51.58%  | 44.57%        | 45.06%        | 1.7962 |2.1588|2.1378|
-| 4  |  1024      | 50.07% | 43.33%        | 45.09%          | 1.8576 |2.1956|2.1642|
-| 5 |  2048         | 49.83% | 43.71%         | 43.99%         | 1.8806 |2.2107|2.1824|
-| 6  | 4096        | 47.37%  | 42.41%         | 43.29%         | 1.9877 |2.2287|2.1972|
-| 7  |  8192       | 43.02%  | 39.83%       | 40.64%        | 2.1832 |2.3389|2.3018|
-
+| Test # | batch_size | train_acc | val_acc | test_acc | train_loss | val_loss | test_loss |
+| ------ | ---------- | --------- | ------- | -------- | ---------- | -------- | --------- |
+| 1      | 128        | 51.47%    | 44.56%  | 45.68%   | 1.8046     | 2.1497   | 2.1277    |
+| 2      | 256        | 52.27%    | 44.06%  | 45.67%   | 1.7792     | 2.1487   | 2.1274    |
+| 3      | 512        | 51.58%    | 44.57%  | 45.06%   | 1.7962     | 2.1588   | 2.1378    |
+| 4      | 1024       | 50.07%    | 43.33%  | 45.09%   | 1.8576     | 2.1956   | 2.1642    |
+| 5      | 2048       | 49.83%    | 43.71%  | 43.99%   | 1.8806     | 2.2107   | 2.1824    |
+| 6      | 4096       | 47.37%    | 42.41%  | 43.29%   | 1.9877     | 2.2287   | 2.1972    |
+| 7      | 8192       | 43.02%    | 39.83%  | 40.64%   | 2.1832     | 2.3389   | 2.3018    |
 
 ---
 
