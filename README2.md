@@ -58,7 +58,7 @@ Example:
 - β1: 0.9
 - β2: 0.999
 ## LocalSGD
-For this section of the project, to enable testing, we configured the code to allow the selection of workers (K) and local steps (J) via the command line. Three parameters must be provided via the command line:
+For this section of the project, to enable testing, we configured the code to allow the selection of workers (K) and local steps (J) via the command line.The script is 'Distributed_LocalSGD.ipynb' and three parameters must be provided via the command line:
 
 - The name of the file to execute, ending with .py (in this case, 'localSGD.py').
 - The number of workers to use for the test (K: [2, 4, 8]).
@@ -77,9 +77,9 @@ Example:
 - momentum: 0.9
 - weight_decay: 4e-4
 ## SlowMo
-In this section, testing is configured similarly to LocalSGD, allowing the selection of workers (K) and local steps (J) via the command line. The three required parameters are:
+In this section, testing is configured similarly to LocalSGD, allowing the selection of workers (K) and local steps (J) via the command line. The script is 'Distributed_LocalSGD_SlowMo.ipynb' and the three required parameters are:
 
-- The name of the file to execute, ending with .py (in this case, 'localSGD.py').
+- The name of the file to execute, ending with .py (in this case, 'localSGD_SlowMo.py').
 - The number of workers (K: [2, 4, 8]).
 - The number of local steps (J).
 
@@ -99,7 +99,7 @@ Example:
 - β: 0.20
 - J: 16
 ## Personal Contribution
-For this section of the project, testing was configured to allow the selection of workers (K) and initial local steps (J) via the command line. Three parameters must be provided:
+For this section of the project, testing was configured to allow the selection of workers (K) and initial local steps (J) via the command line. The script is 'DynamicSGD_starting_code.ipynb' and three parameters must be provided:
 
 - The name of the file to execute, ending with .py (in this case, 'localSGD.py').
 - The number of workers (K: [2, 4, 8]).
